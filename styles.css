@@ -1,0 +1,131 @@
+:root {
+  --bg: #ffffff;
+  --fg: #111111;
+  --muted: #666666;
+  --accent: #0b5fff;
+  --card: #f6f7f9;
+  --maxw: 720px;
+  --radius: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0c0f;
+    --fg: #e8e9ee;
+    --muted: #a7acb7;
+    --accent: #7aa2ff;
+    --card: #11131a;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, Noto Sans, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: var(--maxw);
+  margin: 7vh auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 18px;
+  align-items: center;
+}
+
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid color-mix(in oklab, var(--fg), transparent 80%);
+  background: var(--card);
+}
+
+.name {
+  font-size: clamp(28px, 3.5vw, 36px);
+  margin: 0 0 2px 0;
+}
+
+.tagline {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.about {
+  margin: 22px 0 18px 0;
+  background: var(--card);
+  padding: 16px 16px;
+  border-radius: var(--radius);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+  margin: 16px 0 6px 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--fg);
+  border: 1px solid color-mix(in oklab, var(--fg), transparent 75%);
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: transparent;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.links a:hover,
+.links a:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: color-mix(in oklab, var(--accent), transparent 88%);
+  outline: none;
+}
+
+.projects {
+  margin-top: 22px;
+}
+
+.projects h2 {
+  font-size: 18px;
+  margin: 6px 0 10px 0;
+}
+
+.projects ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.projects li {
+  padding: 10px 0;
+  border-bottom: 1px dashed color-mix(in oklab, var(--fg), transparent 85%);
+}
+
+.projects li:last-child { border-bottom: none; }
+
+.meta {
+  color: var(--muted);
+  margin-left: 6px;
+}
+
+.footer {
+  margin-top: 26px;
+  color: var(--muted);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
