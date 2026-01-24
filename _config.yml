@@ -1,6 +1,5 @@
 # ---- Site basics ----
 title: "Ishara Paranawithana"
-name: "Ishara"
 url: "https://isharap.github.io"   # no trailing slash
 baseurl: ""                        # keep empty for user site
 
@@ -19,7 +18,7 @@ plugins:
 author:
   name: "Ishara Paranawithana"
   avatar: "/assets/images/profile.jpeg"
-  bio: "Scientist @ CSIRO | PhD ECSE (Biomedical Eng). Medical Imaging • CV • NeuroTech • Applied AI/ML"
+  bio: "Scientist at CSIRO | PhD Electrical & Computer Systems Engineering"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
@@ -29,7 +28,7 @@ author:
       url: "https://www.linkedin.com/in/ishara-paranawithana/"
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:isharackp@hotmail.com"   # <-- add mailto:
+      url: "mailto:isharackp@hotmail.com"   
 
 # ---- Page defaults ----
 defaults:
