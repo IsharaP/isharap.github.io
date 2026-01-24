@@ -1,7 +1,10 @@
 ---
-layout: splash
+layout: single
 title: "Ishara Paranawithana"
 permalink: /
+author_profile: true
+toc: true
+toc_sticky: true
 header:
   overlay_color: "#000"
   overlay_filter: 0.3
