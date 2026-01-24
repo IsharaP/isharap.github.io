@@ -1,36 +1,37 @@
 
 # ---- Site basics ----
-title: "Your Name"
-name: "Your Name"
-description: "Short tagline for your personal website."
-url: "https://yourusername.github.io"   # no trailing slash
-baseurl: ""                               # keep empty for a user site (yourusername.github.io)
+title: "Ishara Paranawithana"
+name: "Ishara"
+description: "This is my personal website."
+url: "https://isharap.github.io"   # no trailing slash
+baseurl: ""                               # keep empty for a user site (isharap.github.io)
 
 # ---- Use Minimal Mistakes via remote_theme (GH Pages-friendly) ----
 remote_theme: "mmistakes/minimal-mistakes"   # Minimal Mistakes official repo
 
 # Optional: pick a built-in color skin (can remove this line to use default)
-minimal_mistakes_skin: "default"             # other options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: "air"             # other options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
 # ---- Plugins supported on GitHub Pages ----
 plugins:
   - jekyll-remote-theme   # lets GH Pages load the theme repo
+  - jekyll-include-cache
   - jekyll-seo-tag        # SEO meta tags
   - jekyll-feed           # RSS (optional; you can remove if no blog)
 
 # ---- Author / social (edit or remove) ----
 author:
-  name: "Your Name"
+  name: "Ishara Paranawithana"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/IsharaP"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/your-linkedin/"
+      url: "https://www.linkedin.com/in/ishara-paranawithana/"
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:you@example.com"
+      url: "isharackp@hotmail.com"
 
 # ---- Defaults: keep pages simple by default ----
 defaults:
