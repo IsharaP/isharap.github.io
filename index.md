@@ -9,16 +9,13 @@ header:
   overlay_color: "#000"
   overlay_filter: 0.3
   overlay_image: /assets/images/header.jpg   # Optional, remove if no image
-excerpt: "Short tagline or summary for your professional profile."
 ---
 
 # Welcome
 
-🧑‍💻 Scientist at CSIRO Health & Biosecurity | Australian e-Health Research Centre
-🎓 PhD in Electrical & Computer Systems Engineering (Biomedical Engineering)
+<p align="center">
 💡 Interested in Medical Imaging, Computer Vision, NeuroTech, Applied AI/ML & Data Analytics
-
-📍 Based in Melbourne, Australia
+</p>
 
 ---
 
@@ -30,8 +27,3 @@ An experienced engineer and researcher with a strong data science background (ap
 ## Projects
 - **Project One** — short impact summary.
 - **Project Two** — short impact summary.
-
-## Links
-- [GitHub](https://github.com/IsharaP)
-- [LinkedIn](https://www.linkedin.com/in/ishara-paranawithana/)
-- [Email](isharackp@hotmail.com)
