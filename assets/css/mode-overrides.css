@@ -1,0 +1,71 @@
+/* assets/css/mode-overrides.css */
+
+/* Base (light) – optional fine-tuning */
+:root {
+  /* Link accent for light mode (adjust to taste) */
+  --mm-accent: #0b5fff;
+}
+
+a, .page__content a {
+  color: var(--mm-accent);
+}
+a:hover, .page__content a:hover {
+  text-decoration: underline;
+}
+
+/* Automatic dark mode */
+@media (prefers-color-scheme: dark) {
+  /* Text & background */
+  html, body {
+    background-color: #0b0c0f !important;
+    color: #e8e9ee !important;
+  }
+
+  /* Cards/sections (if using 'splash' or blocks) */
+  .page, .page__content, .archive, .feature__wrapper, .feature__item {
+    background: transparent !important;
+    color: #e8e9ee !important;
+  }
+
+  /* Masthead/footer */
+  .masthead, .page__footer {
+    background: #0f1116 !important;
+    border-color: rgba(255,255,255,0.07) !important;
+  }
+  .page__footer {
+    color: #cfd3dc !important;
+  }
+
+  /* Titles & headings */
+  h1, h2, h3, h4, h5, h6,
+  .page__title, .archive__subtitle {
+    color: #f4f6fb !important;
+  }
+
+  /* Links */
+  :root { --mm-accent: #7aa2ff; }
+  a, .page__content a {
+    color: var(--mm-accent) !important;
+  }
+
+  /* Subtle borders */
+  hr, .thin, .archive__item {
+    border-color: rgba(255,255,255,0.1) !important;
+  }
+
+  /* Buttons/links in feature blocks or nav pills */
+  .btn, .btn--primary, .btn--light-outline {
+    background: transparent !important;
+    color: var(--mm-accent) !important;
+    border-color: color-mix(in oklab, var(--mm-accent), transparent 60%) !important;
+  }
+  .btn:hover {
+    background: color-mix(in oklab, var(--mm-accent), transparent 88%) !important;
+  }
+
+  /* Code blocks */
+  pre, code, kbd, samp {
+    background: #151922 !important;
+    color: #e6e8ef !important;
+  }
+}
