@@ -13,7 +13,9 @@ header:
 
 # Welcome
 
-<p align="center">
+<p align="left">
+🧑‍💻 Scientist at CSIRO Health & Biosecurity | Australian e-Health Research Centre<br>
+🎓 PhD in Electrical & Computer Systems Engineering (Biomedical Engineering)<br>
 💡 Interested in Medical Imaging, Computer Vision, NeuroTech, Applied AI/ML & Data Analytics
 </p>
 
