@@ -2,7 +2,6 @@
 title: "Ishara Paranawithana"
 name: "Ishara"
 avatar: "/assets/images/profile.jpeg"
-description: "This is my personal website."
 url: "https://isharap.github.io"   # no trailing slash
 baseurl: ""                               # keep empty for a user site (isharap.github.io)
 
@@ -40,8 +39,8 @@ defaults:
       type: "pages"
     values:
       layout: "single"    # minimalist single-column page layout
-      author_profile: false
-      toc: false
+      author_profile: true
+      toc: true
 
 # ---- Build settings ----
 markdown: kramdown
