@@ -2,6 +2,7 @@
 # ---- Site basics ----
 title: "Ishara Paranawithana"
 name: "Ishara"
+avatar: "/assets/images/profile.jpg"
 description: "This is my personal website."
 url: "https://isharap.github.io"   # no trailing slash
 baseurl: ""                               # keep empty for a user site (isharap.github.io)
@@ -10,7 +11,7 @@ baseurl: ""                               # keep empty for a user site (isharap.
 remote_theme: "mmistakes/minimal-mistakes"   # Minimal Mistakes official repo
 
 # Optional: pick a built-in color skin (can remove this line to use default)
-minimal_mistakes_skin: "air"             # other options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: "dark"             # other options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
 # ---- Plugins supported on GitHub Pages ----
 plugins:
