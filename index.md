@@ -14,8 +14,11 @@ excerpt: "Short tagline or summary for your professional profile."
 
 # Welcome
 
-This is your landing section.  
-Add one or two intro sentences about what you do professionally.
+🧑‍💻 Scientist at CSIRO Health & Biosecurity | Australian e-Health Research Centre
+🎓 PhD in Electrical & Computer Systems Engineering (Biomedical Engineering)
+💡 Interested in Medical Imaging, Computer Vision, NeuroTech, Applied AI/ML & Data Analytics
+
+📍 Based in Melbourne, Australia
 
 ---
 
