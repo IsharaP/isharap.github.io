@@ -1,26 +1,25 @@
 # ---- Site basics ----
 title: "Ishara Paranawithana"
 name: "Ishara"
-avatar: "/assets/images/profile.jpeg"
 url: "https://isharap.github.io"   # no trailing slash
-baseurl: ""                               # keep empty for a user site (isharap.github.io)
+baseurl: ""                        # keep empty for user site
 
-# ---- Use Minimal Mistakes via remote_theme (GH Pages-friendly) ----
-remote_theme: "mmistakes/minimal-mistakes"   # Minimal Mistakes official repo
+# ---- Minimal Mistakes theme ----
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
 
-# Optional: pick a built-in color skin (can remove this line to use default)
-minimal_mistakes_skin: "dark"             # other options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
-
-# ---- Plugins supported on GitHub Pages ----
+# ---- Plugins ----
 plugins:
-  - jekyll-remote-theme   # lets GH Pages load the theme repo
+  - jekyll-remote-theme
   - jekyll-include-cache
-  - jekyll-seo-tag        # SEO meta tags
-  - jekyll-feed           # RSS (optional; you can remove if no blog)
+  - jekyll-seo-tag
+  - jekyll-feed
 
-# ---- Author / social (edit or remove) ----
+# ---- Author / social ----
 author:
   name: "Ishara Paranawithana"
+  avatar: "/assets/images/profile.jpeg"
+  bio: "Scientist @ CSIRO | PhD ECSE (Biomedical Eng). Medical Imaging • CV • NeuroTech • Applied AI/ML"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
@@ -30,18 +29,19 @@ author:
       url: "https://www.linkedin.com/in/ishara-paranawithana/"
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "isharackp@hotmail.com"
+      url: "mailto:isharackp@hotmail.com"   # <-- add mailto:
 
-# ---- Defaults: keep pages simple by default ----
+# ---- Page defaults ----
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: "single"    # minimalist single-column page layout
+      layout: "single"
       author_profile: true
       toc: true
+      toc_sticky: true
 
-# ---- Build settings ----
+# ---- Build ----
 markdown: kramdown
 permalink: /:title/
