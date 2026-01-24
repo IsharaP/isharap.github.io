@@ -1,0 +1,74 @@
+# ---- Site basics ----
+title: "Ishara Paranawithana"
+name: "Ishara Paranawithana"
+description: "Data & AI — portfolio and links."
+url: "https://yourusername.github.io"    # no trailing slash
+baseurl: ""                               # keep empty for user site
+
+# ---- Theme (Minimal Mistakes via remote_theme) ----
+# GitHub Pages supports loading any public theme using the jekyll-remote-theme plugin.
+# Minimal Mistakes recommends remote_theme for GH Pages. 
+remote_theme: "mmistakes/minimal-mistakes"  # latest
+minimal_mistakes_skin: "default"            # choose: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+# ---- Plugins (all GitHub Pages–compatible) ----
+plugins:
+  - jekyll-remote-theme      # lets GH Pages fetch the theme
+  - jekyll-seo-tag           # SEO meta tags
+  - jekyll-feed              # RSS (optional)
+
+# ---- SEO & social ----
+# (Fill as you like; these feed jekyll-seo-tag)
+author:
+  name: "Ishara Paranawithana"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/yourusername"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/your-linkedin/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:you@example.com"
+
+# ---- Navigation (top menu) ----
+# Create matching pages in /_pages if you want multiple sections, or keep it one-page.
+# For a single-page site you can comment this out or link to anchors.
+# Example anchors require matching IDs in your content.
+#nav:
+#  - title: "About"
+#    url: /#about
+#  - title: "Projects"
+#    url: /#projects
+#  - title: "CV"
+#    url: /CV.pdf
+
+# ---- Defaults: use the 'splash' layout for a modern landing page, or 'single' for a simple page ----
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "splash"    # try "single" if you prefer a simpler page
+      toc: false
+      author_profile: false
+
+# ---- Collections (optional for projects) ----
+#collections:
+#  projects:
+#    output: true
+#    permalink: /projects/:title/
+
+# ---- Build ----
+markdown: kramdown
+permalink: /:title/
+paginate: 0
+
+# ---- Include a custom head partial to load our light/dark CSS AFTER the theme ----
+include:
+  - _pages
+  - _includes/head/custom.html
+
+# ---- Theme options reference ----
+# Minimal Mistakes configuration and skins: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
