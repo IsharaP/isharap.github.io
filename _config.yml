@@ -27,7 +27,10 @@ author:
       url: "https://www.linkedin.com/in/ishara-paranawithana/"
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:isharackp@hotmail.com"   
+      url: "mailto:isharackp@hotmail.com"
+    - label: "CV"
+      icon: "far fa-file-alt"      # or: "fas fa-file-pdf"
+      url: "/assets/files/CV.pdf"  
 
 # ---- Page defaults ----
 defaults:
