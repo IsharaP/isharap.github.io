@@ -1,8 +1,7 @@
-
 # ---- Site basics ----
 title: "Ishara Paranawithana"
 name: "Ishara"
-avatar: "/assets/images/profile.jpg"
+avatar: "/assets/images/profile.jpeg"
 description: "This is my personal website."
 url: "https://isharap.github.io"   # no trailing slash
 baseurl: ""                               # keep empty for a user site (isharap.github.io)
