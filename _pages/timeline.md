@@ -1,7 +1,7 @@
 ---
 layout: single
 title: ""
-permalink: /timeline/
+permalink: /_pages/timeline/
 author_profile: true
 toc: false
 ---
