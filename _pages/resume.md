@@ -1,7 +1,7 @@
 ---
 layout: single
 title: ""
-permalink: /resume/
+permalink: /_pages/resume/
 toc: false
 ---
 
