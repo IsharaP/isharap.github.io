@@ -15,9 +15,11 @@ header:
 
 ## About Me
 
-- 🧑‍💻 Scientist at CSIRO Health & Biosecurity | Australian e-Health Research Centre
-- 🎓 PhD in Electrical & Computer Systems Engineering (Biomedical Engineering)
-- 💡 Interested in Medical Imaging, Computer Vision, NeuroTech, Applied AI/ML & Data Analytics
+<div align="left">
+  <p>🧑‍💻 Scientist at CSIRO Health & Biosecurity | Australian e-Health Research Centre</p><br>
+  <p>🎓 PhD in Electrical & Computer Systems Engineering (Biomedical Engineering)</p><br>
+  <p>💡 Interested in Medical Imaging, Computer Vision, NeuroTech, Applied AI/ML & Data Analytics</p>
+</div>
 
 An experienced engineer and researcher with a strong data science background (applied AI/ML), passionate about solving complex problems in medical and healthcare field. With over eight years of experience across medical imaging, neurotechnology, surgical robotics, and real-world clinical data analytics, my mission is to translate scientific innovation into impactful solutions that improve patient outcomes and quality of life. 
 
