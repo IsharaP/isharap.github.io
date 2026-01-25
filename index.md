@@ -10,23 +10,23 @@ excerpt: ""
 hide_excerpt: true
 ---
 
-# Hi! I'm Ishara 👋
+# Hi there! 👋
 
 <div class="text-box">
   <ul style="margin: 0; padding: 0;">
     <li style="margin-bottom: 0.8rem;">
-      🤖 Senior engineer with 8+ years of experience working across medical imaging,
+      🤖 I'm Ishara — A senior engineer with 8+ years of experience working across medical imaging,
       computer‑vision‑based robotics and automation, neurotechnology, and applied AI/ML, delivering end‑to‑end intelligent
       solutions from data to deployment.<br>
     </li>
 
     <li style="margin-bottom: 0.8rem;">
-      📈 Proven ability to deliver solutions from prototypes to scalable and reproducible pipelines,
-      ensuring models and analytics are robust, well‑validated, and ready for reliable real‑world use.<br>
+      📈 I have built intelligent systems for regulated, high performance environments from prototypes to reproducible, scalable solutions,
+      ensuring methods and outputs are robust, well‑validated, and ready for reliable real‑world use.<br>
     </li>
 
     <li style="margin-bottom: 0.8rem;">
-      🧠 My current work focuses on developing AI‑driven quantitative PET/MR biomarkers that support early
+      🧠 My current work focuses on developing AI‑driven quantitative PET/MR biomarkers to support early
       diagnosis, treatment monitoring, and evidence‑based clinical decision‑making in Alzheimer’s disease.<br>
     </li>
 
