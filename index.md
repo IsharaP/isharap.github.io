@@ -12,8 +12,6 @@ header:
   overlay_filter: 0.3
 ---
 
-## Hi! I'm Ishara 👋
-
 - 🧑‍💻 Scientist at CSIRO Health & Biosecurity | Australian e-Health Research Centre
 - 🎓 PhD in Electrical & Computer Systems Engineering (Biomedical Engineering)
 - 💡 Interested in Medical Imaging, Computer Vision, NeuroTech, Applied AI/ML & Data Analytics
