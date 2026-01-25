@@ -1,5 +1,5 @@
 # ---- Site basics ----
-title: ""
+title: "Ishara Paranawithana"
 email: ""
 description: "A showcase of my projects and a personal blog documenting my journey"
 url: "https://isharap.github.io"
@@ -25,7 +25,7 @@ plugins:
 
 # ---- Author / social ----
 author:
-  name: "Ishara Paranawithana"
+  name: ""
   avatar: "/assets/images/profile.jpeg"
   bio: "Scientist @ CSIRO/AeHRC"
   location: "Melbourne, Australia"
