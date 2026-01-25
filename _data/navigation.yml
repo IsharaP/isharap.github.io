@@ -1,0 +1,6 @@
+# _data/navigation.yml
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Timeline"
+    url: "/timeline/"
