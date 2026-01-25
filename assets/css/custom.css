@@ -18,7 +18,7 @@
 /* A clean, centered text box with controlled width */
 .page__content .text-box {
   max-width: 60ch;            /* keeps line length comfortable; change to 640px/700px if you prefer */
-  width: 100%;
+  width: 80%;
   margin: 1rem auto;          /* centers the box */
 
   padding: 1rem 1.25rem;
@@ -28,7 +28,6 @@
   box-shadow: 0 2px 10px rgba(0,0,0,.04);
 
   text-align: justify;
-  text-justify: inter-word;
   line-height: 1.65;
   hyphens: auto;
   word-break: break-word;
