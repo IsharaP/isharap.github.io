@@ -1,7 +1,7 @@
 /* Smaller body copy across the site (main column) */
 .page__content {
-  font-size: 0.9rem;    /* try 0.95, 0.93, 0.9 as you prefer */
-  line-height: 1.65;     /* keep line-height comfortable */
+  font-size: 0.85rem;    /* try 0.95, 0.93, 0.9 as you prefer */
+  line-height: 1.5;     /* keep line-height comfortable */
 }
 
 /* Optional: tone down paragraph spacing slightly */
@@ -10,6 +10,6 @@
 }
 
 /* Optional: scale headings a touch to match the smaller body */
-.page__content h2 { font-size: 1.25rem; }
-.page__content h3 { font-size: 1.15rem; }
-.page__content h4 { font-size: 1.05rem; }
+.page__content h2 { font-size: 1.1rem; }
+.page__content h3 { font-size: 1.0rem; }
+.page__content h4 { font-size: 0.9rem; }
