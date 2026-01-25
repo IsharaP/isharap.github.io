@@ -21,7 +21,7 @@
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: -34px;
+  left: -40px;
   top: 4px;
   width: 8px;
   height: 8px;
