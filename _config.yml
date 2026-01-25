@@ -1,6 +1,14 @@
 # ---- Site basics ----
-url: "https://isharap.github.io"   # no trailing slash
-baseurl: ""                        # keep empty for user site
+title: "Ishara Paranawithana"
+email: "isharackp@hotmail.com"
+description: "A showcase of my projects and a personal blog documenting my journey."
+url: "https://isharap.github.io"
+baseurl: ""                        # Keep empty for user site
+repository: "IsharaP/isharap.github.io" # Github repository
+twitter_username: isharackp
+github_username: IsharaP
+search: true
+codeenable_copy_code_button: true
 
 # ---- Minimal Mistakes theme ----
 remote_theme: "mmistakes/minimal-mistakes"
@@ -12,25 +20,30 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
 
 # ---- Author / social ----
 author:
   name: "Ishara Paranawithana"
   avatar: "/assets/images/profile.jpeg"
-  bio: "Applied AI/ML • Data Science • Medical Imaging • Computer Vision"
+  bio: "Data Scientist"
+  location: "Melbourne, Australia"
   links:
+    - label: "CV"
+      icon: "fas fa-file-alt"      # or: "far fa-file-pdf"
+      url: "/assets/files/CV.pdf"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:isharackp@hotmail.com"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/IsharaP"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/ishara-paranawithana/"
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:isharackp@hotmail.com"
-    - label: "CV"
-      icon: "far fa-file-alt"      # or: "fas fa-file-pdf"
-      url: "/assets/files/CV.pdf"  
 
 # ---- Page defaults ----
 defaults:
@@ -42,6 +55,18 @@ defaults:
       author_profile: true
       toc: true
       toc_sticky: true
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/isharackp"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/IsharaP"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ishara-paranawithana/"
 
 # ---- Build ----
 markdown: kramdown
