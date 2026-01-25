@@ -39,11 +39,11 @@ toc: false
   <!-- Bionics Institute (PhD) -->
   <li class="timeline-item">
     <div class="timeline-time">Feb 2020 — Feb 2024</div>
-    <h3 class="timeline-title">PhD Candidate — Human Hearing Group</h3>
+    <h3 class="timeline-title">PhD Candidate — Human Hearing Group/Neurobionics Lab</h3>
     <div class="timeline-meta">
-      Bionics Institute, Australia (full‑time)
+      Bionics Institute/Monash University, Australia (full‑time)
     </div>
-    <p>Advanced infant hearing care by developing objective neuroimaging measures for early diagnosis and intervention.</p>
+    <p>Transforming infant hearing care by developing objective neuroimaging measures for early diagnosis and intervention.</p>
   </li>
 
   <!-- Startmate -->
@@ -56,7 +56,7 @@ toc: false
   </li>
   
   <li class="timeline-item">
-    <div class="timeline-time">2022 — 2023</div>
+    <div class="timeline-time">Dec 2022 — Nov 2023</div>
     <h3 class="timeline-title">IMNIS Engage Mentee</h3>
     <div class="timeline-meta">
       Australian Academy of Technological Sciences & Engineering (ATSE)
@@ -75,14 +75,22 @@ toc: false
   <!-- SUTD Research Engineer -->
   <li class="timeline-item">
     <div class="timeline-time">Jun 2016 — Dec 2019</div>
-    <h3 class="timeline-title">Research Engineer — SAM Design Group / Robotics Innovation Lab</h3>
+    <h3 class="timeline-title">Research Engineer — SAM Design Group / Robotics Innovation Laboratory</h3>
     <div class="timeline-meta">
-      Singapore University of Technology and Design (SUTD), Singapore ·
-      Pillar of Engineering Product Development (full‑time)
+      Pillar of Engineering Product Development, Singapore University of Technology and Design (SUTD), Singapore (full‑time)
     </div>
     <p>Built ultrasound-guided robot-assisted needle tracking for kidney stone removal surgery and a self-initialising robotic micromanipulation system for cell handling.</p>
   </li>
 
+  <!-- Rotaract Alumni Mora -->
+  <li class="timeline-item">
+    <div class="timeline-time">Jul 2015 – Jun 2016</div>
+    <h3 class="timeline-title">Director – Community Service</h3>
+    <div class="timeline-meta">
+      Rotaract Club of Alumni of University of Moratuwa, Sri Lanka
+    </div>
+  </li>
+  
   <!-- SUTD Research Intern -->
   <li class="timeline-item">
     <div class="timeline-time">Oct 2014 — Mar 2015</div>
@@ -91,6 +99,33 @@ toc: false
       Singapore University of Technology and Design (SUTD), Singapore (full‑time)
     </div>
     <p>Automated IVF lab procedures using computer vision for blastomere and micropipette tracking, improving accuracy and efficiency.</p>
+  </li>
+
+  <!-- Rotaract Mora -->
+  <li class="timeline-item">
+    <div class="timeline-time">Jul 2014 – Jun 2015</div>
+    <h3 class="timeline-title">Director – Public Relations</h3>
+    <div class="timeline-meta">
+      Rotaract Club of University of Moratuwa, Sri Lanka
+    </div>
+  </li>
+
+    <!-- IEEE Student Branch -->
+  <li class="timeline-item">
+    <div class="timeline-time">Feb 2014 – Jan 2015</div>
+    <h3 class="timeline-title">Secretary – Robotics & Automation Society Student Chapter</h3>
+    <div class="timeline-meta">
+      IEEE Student Branch University of Moratuwa, Sri Lanka
+    </div>
+  </li>
+  
+    <!-- UniMora Undergrad -->
+  <li class="timeline-item">
+    <div class="timeline-time">Oct 2011 — Apr 2016</div>
+    <h3 class="timeline-title">Undergraduate Student</h3>
+    <div class="timeline-meta">
+      Department of Electronic & Telecommunication Engineering, University of Moratuwa, Sri Lanka
+    </div>
   </li>
 
 </ul>
