@@ -1,8 +1,8 @@
 /* Make the avatar larger */
 .author__avatar img {
-  width: 160px !important;    /* change to your preferred size */
-  height: 160px !important;
-  border-radius: 55%;         /* keeps the circle shape */
+  width: 150px !important;    /* change to your preferred size */
+  height: 150px !important;
+  border-radius: 50%;         /* keeps the circle shape */
 }
 
 
