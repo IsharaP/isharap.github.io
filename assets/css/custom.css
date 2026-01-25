@@ -1,10 +1,3 @@
-/* Make the avatar larger */
-.author__avatar img {
-  width: 160px !important;    /* change to your preferred size */
-  height: 160px !important;
-  border-radius: 50%;         /* keeps the circle shape */
-}
-
 /* Smaller body copy across the site (main column) */
 .page__content {
   font-size: 0.8rem;    /* try 0.95, 0.93, 0.9 as you prefer */
