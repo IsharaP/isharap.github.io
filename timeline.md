@@ -13,7 +13,7 @@ toc: false
     <div class="timeline-time">Aug 2024 — Present</div>
     <h3 class="timeline-title">CSIRO Early Career Research Fellow — Neuroimaging Team</h3>
     <div class="timeline-meta">
-      Commonwealth Scientific & Industrial Research Organisation (CSIRO), Australia · Australian e‑Health Research Centre (full‑time) · Biomedical Informatics Group 
+      Commonwealth Scientific & Industrial Research Organisation (CSIRO), Australia · Australian e‑Health Research Centre · Biomedical Informatics Group  (full‑time)
     </div>
     <p>Developing AI‑enabled imaging biomarkers to support early detection and treatment monitoring in Alzheimer’s disease.</p>
   </li>
