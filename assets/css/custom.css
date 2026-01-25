@@ -13,7 +13,7 @@
 
 /* A clean, centered text box with controlled width */
 .page__content .text-box {
-  width: 98%;                 /* keeps line length comfortable; change to 640px/700px if you prefer */
+  width: 96%;                 /* keeps line length comfortable; change to 640px/700px if you prefer */
   margin: 1rem auto;          
 
   padding: 1rem 1.25rem;
