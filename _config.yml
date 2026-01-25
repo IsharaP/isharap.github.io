@@ -12,6 +12,9 @@ codeenable_copy_code_button: true
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 
+include:
+  - _pages
+
 # ---- Plugins ----
 plugins:
   - jekyll-remote-theme
