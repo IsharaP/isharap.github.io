@@ -10,7 +10,7 @@ excerpt: ""
 hide_excerpt: true                      
 ---
 
-## About Me
+# About Me
 
 <div class="text-box">
   <ul style="margin: 0; padding: 0;">
@@ -42,7 +42,7 @@ hide_excerpt: true
   </ul>
 </div>
 
-## Experience
+# Experience
 
 <ul class="timeline">
 
