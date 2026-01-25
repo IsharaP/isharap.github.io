@@ -45,12 +45,12 @@
 .timeline-meta {
   font-weight: 300;
   color: #7f8794;
-  margin: 2px 0 6px;
+  margin: 2px 0 8px;
   line-height: 1.35;
   font-size: 0.8rem;
 }
 .timeline p {
   font-weight: 200;
-  margin: 0 0 12px;
+  margin: 0 0 8px;
   font-size: 0.8rem;
 }
