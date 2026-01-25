@@ -49,7 +49,7 @@ hide_excerpt: true
   <!-- CSIRO -->
   <li class="timeline-item">
     <div class="timeline-time">Aug 2024 — Present</div>
-    <h3 class="timeline-title">CSIRO Early Career Research Fellow — Neuroimaging Team (Full‑time)</h3>
+    <h3 class="timeline-title">CERC Fellow — Neuroimaging Team (Full‑time)</h3>
     <div class="timeline-meta">
       Commonwealth Scientific & Industrial Research Organisation (CSIRO), Australia · Australian e‑Health Research Centre · Biomedical Informatics Group
     </div>
