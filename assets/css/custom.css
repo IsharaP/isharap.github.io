@@ -1,14 +1,13 @@
-/* Reduce masthead font size */
-.masthead__menu-item a,
+/* Set masthead font size */
 .site-title {
-  font-size: 0.8rem !important;     /* adjust this value */
+  font-size: 2rem !important;     /* adjust this value */
   line-height: 1.4 !important;
 }
 
-/* Increase the font size of the page title */
-.page__title {
-  font-size: 2rem !important;  /* change value to your preference */
-  line-height: 1.2;
+/* Set masthead font size */
+.masthead__menu-item a {
+  font-size: 0.8rem !important;     /* adjust this value */
+  line-height: 1.4 !important;
 }
 
 /* Smaller body copy across the site (main column) */
