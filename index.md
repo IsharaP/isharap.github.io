@@ -10,8 +10,36 @@ excerpt: ""
 hide_excerpt: true                      
 ---
 
+## About Me
+
 <div class="text-box">
-An experienced engineer and researcher with a strong data science background, passionate about solving complex real-world problems. With over eight years of experience across medical imaging, neurotechnology, robotics & automation, and real-world clinical data analytics, my focus is on bridging gaps between research, technology and business needs and building intelligent systems to deliver impactful solutions that improve accuracy, efficiency and throughput while reducing costs.
+  <ul>
+    <li>
+      🤖 Applied AI/ML Computer Vision Engineer with 8+ years of experience working across medical imaging,
+      computer‑vision‑based robotics and automation, and neurotechnology, delivering end‑to‑end intelligent
+      solutions from data to deployment.
+    </li>
+
+    <li>
+      📈 Proven ability to deliver solutions from prototypes to scalable and reproducible pipelines,
+      ensuring models and analytics are robust, well‑validated, and ready for reliable real‑world use.
+    </li>
+
+    <li>
+      🧠 My current work focuses on developing AI‑driven quantitative PET/MR biomarkers that support early
+      diagnosis, treatment monitoring, and evidence‑based clinical decision‑making in Alzheimer’s disease.
+    </li>
+
+    <li>
+      🚀 To learn more about my work, check out my
+      <a href="https://drive.google.com/file/d/1U_5HCV206EBXEhObK1OOvCfKSylvqE2_/view"
+         target="_blank" rel="noopener noreferrer">resume</a>
+      and
+      <a href="https://scholar.google.com.au/citations?user=augkY8UAAAAJ&amp;hl=en&amp;oi=ao"
+         target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      profile.
+    </li>
+  </ul>
 </div>
 
 ## Experience
