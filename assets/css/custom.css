@@ -17,7 +17,7 @@
 
 /* A clean, centered text box with controlled width */
 .page__content .text-box {
-  width: 95%;                 /* keeps line length comfortable; change to 640px/700px if you prefer */
+  width: 98%;                 /* keeps line length comfortable; change to 640px/700px if you prefer */
   margin: 1rem auto;          
 
   padding: 1rem 1.25rem;
@@ -26,7 +26,9 @@
 
   text-align: justify;
   text-justify: inter-word
-  line-height: 1.5;
-  hyphens: auto;
-  word-break: break-word;
+  line-height: 1.65;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  white-space: normal;
+  hyphens: none !important;
 }
