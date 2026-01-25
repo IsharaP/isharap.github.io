@@ -1,3 +1,9 @@
+/* Remove masthead (header bar) on pages marked with .no-header */
+.no-header .masthead,
+.no-header .greedy-nav {
+  display: none !important;
+}
+
 /* Smaller body copy across the site (main column) */
 .page__content {
   font-size: 0.75rem;    /* try 0.95, 0.93, 0.9 as you prefer */
