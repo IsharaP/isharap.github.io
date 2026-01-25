@@ -7,7 +7,8 @@ toc_sticky: true
 title: ""
 hide_title: true
 excerpt: ""
-hide_excerpt: true                      
+hide_excerpt: true
+classes: no-header
 ---
 
 ## About Me
