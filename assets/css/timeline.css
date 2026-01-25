@@ -23,8 +23,8 @@
   position: absolute;
   left: -28px;
   top: 4px;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: currentColor;                  /* dot */
   box-shadow: 0 0 0 3px rgba(125,130,140,.12);
