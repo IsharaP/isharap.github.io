@@ -25,7 +25,7 @@ plugins:
 
 # ---- Author / social ----
 author:
-  name: "Ishara Paranawithana, PhD"
+  name: ""
   avatar: "/assets/images/profile.jpeg"
   bio: "Scientist at Commonwealth Scientific & Industrial Research Organisation (CSIRO)"
   location: "Melbourne, Australia"
