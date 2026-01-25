@@ -3,5 +3,5 @@ main:
   - title: "Home"
     url: "/"
   - title: "Resume"
-    url: "/_pages/resume/"
+    url: "/resume/"
 
