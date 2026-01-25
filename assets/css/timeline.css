@@ -21,7 +21,7 @@
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: -30px;
+  left: -31px;
   top: 4px;
   width: 8px;
   height: 8px;
@@ -30,38 +30,26 @@
   box-shadow: 0 0 0 3px rgba(125,130,140,.12);
 }
 .timeline-time {
-  font-weight: 600;
+  font-weight: 500;
   color: #7f8794;
   margin-bottom: 4px;
+  line-height: 1.35;
+  font-size: 1.0rem;
 }
 .timeline-title {
   margin: 0;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.35;
+  font-size: 1.1rem;
 }
 .timeline-meta {
-  font-weight: 500;
+  font-weight: 400;
   color: #7f8794;
   margin: 2px 0 8px;
-  font-size: 0.95rem;
+  line-height: 1.5;
+  font-size: 0.9rem;
 }
 .timeline p {
   margin: 0 0 8px;
+  font-size: 0.85rem;
 }
-
-/* Smaller body copy across the site (main column) */
-.page__content {
-  font-size: 0.85rem;    /* try 0.95, 0.93, 0.9 as you prefer */
-  line-height: 1.5;     /* keep line-height comfortable */
-}
-
-/* Optional: tone down paragraph spacing slightly */
-.page__content p {
-  margin-bottom: 0.8em;
-}
-
-/* Optional: scale headings a touch to match the smaller body */
-.page__content h2 { font-size: 1.1rem; }
-.page__content h3 { font-size: 1.0rem; }
-.page__content h4 { font-size: 0.9rem; }
-
