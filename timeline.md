@@ -49,7 +49,7 @@ toc: false
   <!-- Startmate -->
   <li class="timeline-item">
     <div class="timeline-time">May 2023 — July 2023</div>
-    <h3 class="timeline-title">Student Fellow — Startmate</h3>
+    <h3 class="timeline-title">Student Fellow — Winter Cohort</h3>
     <div class="timeline-meta">
       Startmate, Australia
     </div>
@@ -71,9 +71,9 @@ toc: false
       Monash University, Melbourne, Australia
     </div>
     <ul>
-      <li>ECE4081 — Medical Instrumentation</li>
-      <li>BMS1031 — Medical Biophysics</li>
-      <li>PHY2011 — Neuroscience of Communication, Sensory & Control Systems</li>
+      <li class="p">ECE4081 — Medical Instrumentation</li>
+      <li class="p">BMS1031 — Medical Biophysics</li>
+      <li class="p">PHY2011 — Neuroscience of Communication, Sensory & Control Systems</li>
     </ul>
   </li>
 
