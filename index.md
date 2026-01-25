@@ -4,6 +4,8 @@ permalink: /
 author_profile: true
 toc: true
 toc_sticky: true
+title: ""
+hide_title: true
 ---
 
 ## Hi! I'm Ishara 👋
