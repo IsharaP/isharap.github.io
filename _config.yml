@@ -54,6 +54,10 @@ defaults:
       toc: true
       toc_sticky: true
 
+nav:
+  - title: "Timeline"
+    url: /timeline/
+
 footer:
   links:
     - label: "Twitter"
