@@ -1,3 +1,14 @@
 <!-- Custom head snippets -->
 <link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+<script>
+  // Set theme based on OS preference
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  document.documentElement.setAttribute(
+    'data-theme',
+    prefersDark ? 'dark' : 'light'
+  );
+
+  // Update dynamically if the user or OS switches theme
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e =>
