@@ -1,0 +1,15 @@
+/* Smaller body copy across the site (main column) */
+.page__content {
+  font-size: 0.95rem;    /* try 0.95, 0.93, 0.9 as you prefer */
+  line-height: 1.65;     /* keep line-height comfortable */
+}
+
+/* Optional: tone down paragraph spacing slightly */
+.page__content p {
+  margin-bottom: 0.8em;
+}
+
+/* Optional: scale headings a touch to match the smaller body */
+.page__content h2 { font-size: 1.45rem; }
+.page__content h3 { font-size: 1.2rem; }
+.page__content h4 { font-size: 1.05rem; }
