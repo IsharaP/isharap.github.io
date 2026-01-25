@@ -70,11 +70,6 @@ toc: false
     <div class="timeline-meta">
       Monash University, Melbourne, Australia
     </div>
-    <ul>
-      <li class="p">ECE4081 — Medical Instrumentation</li>
-      <li class="p">BMS1031 — Medical Biophysics</li>
-      <li class="p">PHY2011 — Neuroscience of Communication, Sensory & Control Systems</li>
-    </ul>
   </li>
 
   <!-- SUTD Research Engineer -->
