@@ -96,3 +96,12 @@ html[data-theme="dark"] select {
   color: var(--mm-text);
   border-color: var(--mm-border);
 }
+
+/* Increase font size of Table of Contents sidebar */
+.toc,
+.toc__menu,
+.toc__menu li,
+.toc__menu a {
+  font-size: 0.8rem !important;   /* default is ~0.75rem */
+  line-height: 1.5;
+}
