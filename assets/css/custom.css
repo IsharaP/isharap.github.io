@@ -17,7 +17,7 @@
 
 /* A clean, centered text box with controlled width */
 .page__content .text-box {
-  width: 99%;                 /* keeps line length comfortable; change to 640px/700px if you prefer */
+  width: 98%;                 /* keeps line length comfortable; change to 640px/700px if you prefer */
   margin: 1rem auto;          
 
   padding: 1rem 1.25rem;
@@ -33,42 +33,66 @@
   hyphens: none !important;
 }
 
-
-/* Default theme: Light */
-:root {
-  --mm-color-scheme: light;
-}
-
-/* Apply Dark mode when OS is dark */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --mm-color-scheme: dark;
-  }
-}
-
-/* Apply Light mode when OS is light */
-@media (prefers-color-scheme: light) {
-  :root {
-    --mm-color-scheme: light;
-  }
-}
-
-
-/* --- Dark mode overrides (same variables MM uses) --- */
+/* ---- Auto dark-mode overrides (scoped by data-theme) ---- */
 html[data-theme="dark"] {
-  --background-color: #000;
-  --text-color: #ddd;
-  --link-color: #9cb6ff;
-  --masthead-background: #111;
-  --nav-color: #fff;
-  /* Add more overrides if needed */
+  /* Core page colors */
+  --mm-bg: #0d0f12;
+  --mm-surface: #0f1216;
+  --mm-text: #d9e0ea;
+  --mm-subtle-text: #aeb7c4;
+  --mm-border: #263241;
+  --mm-link: #8fb4ff;
+  --mm-link-hover: #b4ccff;
+
+  background-color: var(--mm-bg);
+  color: var(--mm-text);
 }
 
-/* --- Light mode overrides --- */
-html[data-theme="light"] {
-  --background-color: #fff;
-  --text-color: #333;
-  --link-color: #0366d6;
-  --masthead-background: #fafafa;
-  --nav-color: #111;
+/* Body & common containers */
+html[data-theme="dark"] body,
+html[data-theme="dark"] .page,
+html[data-theme="dark"] .page__inner-wrap,
+html[data-theme="dark"] .page__content {
+  background-color: var(--mm-bg);
+  color: var(--mm-text);
+}
+
+/* Masthead / header */
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .greedy-nav {
+  background-color: #0f1216;
+  color: var(--mm-text);
+  border-bottom: 1px solid var(--mm-border);
+}
+
+/* Links */
+html[data-theme="dark"] a { color: var(--mm-link); }
+html[data-theme="dark"] a:hover { color: var(--mm-link-hover); }
+
+/* Card-like surfaces, code blocks, etc. */
+html[data-theme="dark"] .notice,
+html[data-theme="dark"] .highlighter-rouge,
+html[data-theme="dark"] pre.highlight,
+html[data-theme="dark"] code,
+html[data-theme="dark"] .archive__item,
+html[data-theme="dark"] .sidebar {
+  background-color: var(--mm-surface);
+  color: var(--mm-text);
+  border-color: var(--mm-border);
+}
+
+/* Tables */
+html[data-theme="dark"] table { color: var(--mm-text); }
+html[data-theme="dark"] table th,
+html[data-theme="dark"] table td {
+  border-color: var(--mm-border);
+}
+
+/* Search input and form elements */
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  background: #131822;
+  color: var(--mm-text);
+  border-color: var(--mm-border);
 }
