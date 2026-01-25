@@ -7,10 +7,7 @@ toc_sticky: true
 title: ""
 hide_title: true
 excerpt: ""
-hide_excerpt: true
-header:
-  image: /assets/images/header.jpg    
-  caption: ""                         
+hide_excerpt: true                      
 ---
 
 ## About Me
