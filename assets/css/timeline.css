@@ -34,23 +34,23 @@
   color: #7f8794;
   margin-bottom: 4px;
   line-height: 1.35;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 .timeline-title {
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.35;
   font-size: 1.0rem;
 }
 .timeline-meta {
   font-weight: 300;
   color: #7f8794;
-  margin: 2px 0 8px;
+  margin: 2px 0 6px;
   line-height: 1.35;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .timeline p {
   font-weight: 200;
-  margin: 0 0 10px;
+  margin: 0 0 12px;
   font-size: 0.8rem;
 }
