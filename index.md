@@ -11,7 +11,7 @@ hide_excerpt: true
 classes: no-header
 ---
 
-## About Me
+<h1>About Me</h1>
 
 <div class="text-box">
   <ul style="margin: 0; padding: 0;">
@@ -43,7 +43,7 @@ classes: no-header
   </ul>
 </div>
 
-## Experience
+<h1>Experience</h1>h
 
 <ul class="timeline">
 
