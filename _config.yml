@@ -1,12 +1,10 @@
 # ---- Site basics ----
 title: "Ishara Paranawithana"
 email: "isharackp@hotmail.com"
-description: "A showcase of my projects and a personal blog documenting my journey."
+description: "A showcase of my projects and a personal blog documenting my journey"
 url: "https://isharap.github.io"
 baseurl: ""                        # Keep empty for user site
 repository: "IsharaP/isharap.github.io" # Github repository
-twitter_username: isharackp
-github_username: IsharaP
 search: true
 codeenable_copy_code_button: true
 
@@ -29,7 +27,7 @@ plugins:
 author:
   name: "Ishara Paranawithana"
   avatar: "/assets/images/profile.jpeg"
-  bio: "Data Scientist"
+  bio: "Data Scientist @ CSIRO"
   location: "Melbourne, Australia"
   links:
     - label: "CV"
