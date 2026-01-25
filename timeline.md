@@ -31,7 +31,7 @@ toc: false
   <!-- BridgeTech -->
   <li class="timeline-item">
     <div class="timeline-time">May 2024 — Aug 2024</div>
-    <div class="timeline-title">BridgeTech Program — Participant (2024 Cohort)</div>
+    <div class="timeline-title">BridgeTech Program — Participant</div>
     <div class="timeline-meta">
       MTPConnect Australia
     </div>
