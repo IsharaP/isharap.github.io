@@ -32,3 +32,43 @@
   white-space: normal;
   hyphens: none !important;
 }
+
+
+/* Default theme: Light */
+:root {
+  --mm-color-scheme: light;
+}
+
+/* Apply Dark mode when OS is dark */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mm-color-scheme: dark;
+  }
+}
+
+/* Apply Light mode when OS is light */
+@media (prefers-color-scheme: light) {
+  :root {
+    --mm-color-scheme: light;
+  }
+}
+
+
+/* --- Dark mode overrides (same variables MM uses) --- */
+html[data-theme="dark"] {
+  --background-color: #000;
+  --text-color: #ddd;
+  --link-color: #9cb6ff;
+  --masthead-background: #111;
+  --nav-color: #fff;
+  /* Add more overrides if needed */
+}
+
+/* --- Light mode overrides --- */
+html[data-theme="light"] {
+  --background-color: #fff;
+  --text-color: #333;
+  --link-color: #0366d6;
+  --masthead-background: #fafafa;
+  --nav-color: #111;
+}
