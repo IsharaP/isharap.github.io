@@ -1,0 +1,49 @@
+/* assets/css/timeline.css */
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 20px;            /* vertical line position */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(125, 130, 140, 0.35);
+}
+.timeline-item {
+  position: relative;
+  margin: 0 0 24px 48px; /* left gutter for line + dot */
+}
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -28px;
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: currentColor;                  /* dot */
+  box-shadow: 0 0 0 3px rgba(125,130,140,.12);
+}
+.timeline-time {
+  font-weight: 600;
+  color: #7f8794;
+  margin-bottom: 4px;
+}
+.timeline-title {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.timeline-meta {
+  color: #7f8794;
+  margin: 2px 0 8px;
+  font-size: 0.95rem;
+}
+.timeline p {
+  margin: 0 0 8px;
+}
