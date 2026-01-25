@@ -1,21 +1,9 @@
 /* Reduce masthead font size */
-.masthead,
-.greedy-nav,
 .masthead__menu-item a,
 .site-title {
   font-size: 0.8rem !important;     /* adjust this value */
   line-height: 1.4 !important;
 }
-
-/* Reduce spacing above/below header */
-.masthead {
-  padding: 0.25rem 0 !important;
-}
-
-/* Reduce spacing between nav items */
-.masthead__menu-item {
-  margin-right: 0.75rem !important; /* reduce spacing */
-
 
 /* Smaller body copy across the site (main column) */
 .page__content {
@@ -32,6 +20,7 @@
   border: none !important;            
   background: transparent !important; 
 
+  font-size: 0.75rem;
   text-align: justify;
   text-justify: inter-word
   line-height: 1.4;
