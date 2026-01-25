@@ -1,19 +1,8 @@
 /* Smaller body copy across the site (main column) */
 .page__content {
-  font-size: 0.7rem;    /* try 0.95, 0.93, 0.9 as you prefer */
-  line-height: 1.35;     /* keep line-height comfortable */
+  font-size: 0.75rem;    /* try 0.95, 0.93, 0.9 as you prefer */
+  line-height: 1.4;     /* keep line-height comfortable */
 }
-
-/* Optional: tone down paragraph spacing slightly */
-.page__content p {
-  margin-bottom: 0.8em;
-}
-
-/* Optional: scale headings a touch to match the smaller body */
-.page__content h2 { font-size: 1rem; }
-.page__content h3 { font-size: 0.9rem; }
-.page__content h4 { font-size: 0.85rem; }
-
 
 /* A clean, centered text box with controlled width */
 .page__content .text-box {
@@ -26,7 +15,7 @@
 
   text-align: justify;
   text-justify: inter-word
-  line-height: 1.65;
+  line-height: 1.4;
   word-break: normal !important;
   overflow-wrap: normal !important;
   white-space: normal;
@@ -107,6 +96,6 @@ html[data-theme="dark"] select {
 .toc__menu,
 .toc__menu li,
 .toc__menu a {
-  font-size: 0.7rem !important;   /* default is ~0.75rem */
+  font-size: 0.75rem !important;   /* default is ~0.75rem */
   line-height: 1.5;
 }
