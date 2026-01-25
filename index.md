@@ -6,8 +6,6 @@ toc: true
 toc_sticky: true
 ---
 
-# Hi! I'm Ishara 👋
-
 <p align="left">
 🧑‍💻 Scientist at CSIRO Health & Biosecurity | Australian e-Health Research Centre<br>
 🎓 PhD in Electrical & Computer Systems Engineering (Biomedical Engineering)<br>
