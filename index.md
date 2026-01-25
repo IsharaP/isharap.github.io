@@ -17,17 +17,17 @@ hide_excerpt: true
     <li>
       🤖 Applied AI/ML Computer Vision Engineer with 8+ years of experience working across medical imaging,
       computer‑vision‑based robotics and automation, and neurotechnology, delivering end‑to‑end intelligent
-      solutions from data to deployment.
+      solutions from data to deployment.<br>
     </li>
 
     <li>
       📈 Proven ability to deliver solutions from prototypes to scalable and reproducible pipelines,
-      ensuring models and analytics are robust, well‑validated, and ready for reliable real‑world use.
+      ensuring models and analytics are robust, well‑validated, and ready for reliable real‑world use.<br>
     </li>
 
     <li>
       🧠 My current work focuses on developing AI‑driven quantitative PET/MR biomarkers that support early
-      diagnosis, treatment monitoring, and evidence‑based clinical decision‑making in Alzheimer’s disease.
+      diagnosis, treatment monitoring, and evidence‑based clinical decision‑making in Alzheimer’s disease.<br>
     </li>
 
     <li>
