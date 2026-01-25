@@ -5,6 +5,12 @@
   line-height: 1.4 !important;
 }
 
+/* Increase the font size of the page title */
+.page__title {
+  font-size: 1.5rem !important;  /* change value to your preference */
+  line-height: 1.2;
+}
+
 /* Smaller body copy across the site (main column) */
 .page__content {
   font-size: 0.75rem;    /* try 0.95, 0.93, 0.9 as you prefer */
