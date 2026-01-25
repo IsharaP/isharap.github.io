@@ -8,7 +8,7 @@
 .timeline::before {
   content: "";
   position: absolute;
-  left: 20px;            /* vertical line position */
+  left: 24px;            /* vertical line position */
   top: 0;
   bottom: 0;
   width: 2px;
@@ -21,7 +21,7 @@
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: -40px;
+  left: -32px;
   top: 4px;
   width: 8px;
   height: 8px;
