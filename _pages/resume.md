@@ -4,11 +4,11 @@ title: ""
 permalink: /resume/
 toc: false
 ---
-<div align="center">
-    <iframe 
-        src="{{ '/assets/files/CV.pdf' | relative_url }}" 
-        width="95%" 
-        height="900px" 
-        style="border: none;">
-    </iframe>
+
+<div style="display:flex; justify-content:center; width:100%;">
+  <iframe
+    src="{{ '/assets/files/CV.pdf' | relative_url }}"
+    width="100%"
+    style="max-width:900px; height:90vh; border:0;"
+  ></iframe>
 </div>
