@@ -27,7 +27,7 @@ plugins:
 author:
   name: "Ishara Paranawithana"
   avatar: "/assets/images/profile.jpeg"
-  bio: "Data Scientist @ CSIRO"
+  bio: "Scientist @ CSIRO/AeHRC"
   location: "Melbourne, Australia"
   links:
     - label: "CV"
@@ -53,10 +53,6 @@ defaults:
       author_profile: true
       toc: true
       toc_sticky: true
-
-nav:
-  - title: "Timeline"
-    url: /timeline/
 
 footer:
   links:
