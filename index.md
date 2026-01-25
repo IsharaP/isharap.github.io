@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Ishara Paranawithana"
 permalink: /
 author_profile: true
 toc: true
@@ -8,7 +7,7 @@ toc_sticky: true
 header:
   overlay_color: "#000"
   overlay_filter: 0.3
-  overlay_image: /assets/images/header.jpg   # Optional, remove if no image
+  overlay_image: /assets/images/header.jpg
 ---
 
 # Welcome
