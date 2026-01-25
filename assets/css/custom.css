@@ -17,18 +17,16 @@
 
 /* A clean, centered text box with controlled width */
 .page__content .text-box {
-  max-width: 60ch;            /* keeps line length comfortable; change to 640px/700px if you prefer */
-  width: 80%;
-  margin: 1rem auto;          /* centers the box */
+  width: 95%;                 /* keeps line length comfortable; change to 640px/700px if you prefer */
+  margin: 1rem auto;          
 
   padding: 1rem 1.25rem;
-  border: 1px solid var(--border-color, #e0e0e0);
-  border-radius: 8px;
-  background: var(--bg, #fff);
-  box-shadow: 0 2px 10px rgba(0,0,0,.04);
+  border: none !important;            
+  background: transparent !important; 
 
   text-align: justify;
-  line-height: 1.65;
+  text-justify: inter-word
+  line-height: 1.5;
   hyphens: auto;
   word-break: break-word;
 }
