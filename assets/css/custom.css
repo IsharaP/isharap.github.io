@@ -1,6 +1,6 @@
 /* Smaller body copy across the site (main column) */
 .page__content {
-  font-size: 0.8rem;    /* try 0.95, 0.93, 0.9 as you prefer */
+  font-size: 0.7rem;    /* try 0.95, 0.93, 0.9 as you prefer */
   line-height: 1.35;     /* keep line-height comfortable */
 }
 
