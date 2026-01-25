@@ -21,7 +21,7 @@
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: -31px;
+  left: -30px;
   top: 4px;
   width: 8px;
   height: 8px;
@@ -30,7 +30,7 @@
   box-shadow: 0 0 0 3px rgba(125,130,140,.12);
 }
 .timeline-time {
-  font-weight: 500;
+  font-weight: 600;
   color: #7f8794;
   margin-bottom: 4px;
 }
@@ -40,7 +40,7 @@
   line-height: 1.35;
 }
 .timeline-meta {
-  font-weight: 600;
+  font-weight: 500;
   color: #7f8794;
   margin: 2px 0 8px;
   font-size: 0.95rem;
