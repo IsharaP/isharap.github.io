@@ -2,13 +2,25 @@
 <link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-<script>
-  // Set theme based on OS preference
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  document.documentElement.setAttribute(
-    'data-theme',
-    prefersDark ? 'dark' : 'light'
-  );
 
-  // Update dynamically if the user or OS switches theme
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e =>
+<script>
+  (function () {
+    const mql = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function applyTheme(e) {
+      document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+    }
+
+    // Set on load
+    applyTheme(mql);
+
+    // Listen for changes
+    if (mql.addEventListener) {
+      mql.addEventListener('change', applyTheme);
+    } else if (mql.addListener) {
+      // Safari <14
+      mql.addListener(applyTheme);
+    }
+  })();
+</script>
+
