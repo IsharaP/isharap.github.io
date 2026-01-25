@@ -6,6 +6,10 @@ toc: true
 toc_sticky: true
 title: ""
 hide_title: true
+excerpt: ""
+header:
+  overlay_image: /assets/images/header.jpg
+  overlay_filter: 0.3
 ---
 
 ## Hi! I'm Ishara 👋
