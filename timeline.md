@@ -6,14 +6,12 @@ author_profile: true
 toc: false
 ---
 
-## Section 1
-
 <ul class="timeline">
 
   <!-- CSIRO -->
   <li class="timeline-item">
-    <div class="timeline-time">Aug 2024 — Present</div>
-    <h3 class="timeline-title">CSIRO Early Career Research Fellow — Neuroimaging Team</h3>
+    <div class="timeline-time"><h2>Aug 2024 — Present</h2>h2></div>
+    <h1 class="timeline-title">CSIRO Early Career Research Fellow — Neuroimaging Team</h1>
     <div class="timeline-meta">
       Commonwealth Scientific & Industrial Research Organisation (CSIRO), Australia ·
       Biomedical Informatics Group · Australian e‑Health Research Centre (full‑time)
@@ -23,8 +21,8 @@ toc: false
 
   <!-- ATSE / IMNIS -->
   <li class="timeline-item">
-    <div class="timeline-time">2024 — 2025</div>
-    <h3 class="timeline-title">IMNIS Catalyst</h3>
+    <div class="timeline-time">May 2024 — Apr 2025</div>
+    <h1 class="timeline-title">IMNIS Catalyst</h1>
     <div class="timeline-meta">
       Australian Academy of Technological Sciences & Engineering (ATSE)
     </div>
@@ -33,7 +31,7 @@ toc: false
   <!-- BridgeTech -->
   <li class="timeline-item">
     <div class="timeline-time">May 2024 — Aug 2024</div>
-    <h3 class="timeline-title">BridgeTech Program — Participant (2024 Cohort)</h3>
+    <h1 class="timeline-title">BridgeTech Program — Participant (2024 Cohort)</h1>
     <div class="timeline-meta">
       MTPConnect Australia
     </div>
@@ -42,7 +40,7 @@ toc: false
   <!-- Bionics Institute (PhD) -->
   <li class="timeline-item">
     <div class="timeline-time">Feb 2020 — Feb 2024</div>
-    <h3 class="timeline-title">PhD Candidate — Human Hearing Group</h3>
+    <h1 class="timeline-title">PhD Candidate — Human Hearing Group</h1>
     <div class="timeline-meta">
       Bionics Institute, Australia (full‑time)
     </div>
@@ -52,7 +50,7 @@ toc: false
   <!-- Startmate -->
   <li class="timeline-item">
     <div class="timeline-time">May 2023 — July 2023</div>
-    <h3 class="timeline-title">Student Fellow — Startmate</h3>
+    <h1 class="timeline-title">Student Fellow — Startmate</h1>
     <div class="timeline-meta">
       Startmate, Australia
     </div>
@@ -60,7 +58,7 @@ toc: false
   
   <li class="timeline-item">
     <div class="timeline-time">2022 — 2023</div>
-    <h3 class="timeline-title">IMNIS Engage Mentee</h3>
+    <h1 class="timeline-title">IMNIS Engage Mentee</h1>
     <div class="timeline-meta">
       Australian Academy of Technological Sciences & Engineering (ATSE)
     </div>
@@ -69,7 +67,7 @@ toc: false
   <!-- Monash Teaching Associate -->
   <li class="timeline-item">
     <div class="timeline-time">Feb 2021 — Aug 2024</div>
-    <h3 class="timeline-title">Teaching Associate (casual)</h3>
+    <h1 class="timeline-title">Teaching Associate (casual)</h1>
     <div class="timeline-meta">
       Monash University, Melbourne, Australia
     </div>
@@ -83,7 +81,7 @@ toc: false
     <!-- SUTD Research Engineer -->
   <li class="timeline-item">
     <div class="timeline-time">Jun 2016 — Dec 2019</div>
-    <h3 class="timeline-title">Research Engineer — SAM Design Group / Robotics Innovation Lab</h3>
+    <h1 class="timeline-title">Research Engineer — SAM Design Group / Robotics Innovation Lab</h1>
     <div class="timeline-meta">
       Singapore University of Technology and Design (SUTD), Singapore ·
       Pillar of Engineering Product Development (full‑time)
@@ -94,7 +92,7 @@ toc: false
   <!-- SUTD Research Intern -->
   <li class="timeline-item">
     <div class="timeline-time">Oct 2014 — Mar 2015</div>
-    <h3 class="timeline-title">Research Intern — SUTD‑MIT International Design Centre</h3>
+    <h1 class="timeline-title">Research Intern — SUTD‑MIT International Design Centre</h1>
     <div class="timeline-meta">
       Singapore University of Technology and Design (SUTD), Singapore (full‑time)
     </div>
@@ -102,5 +100,3 @@ toc: false
   </li>
 
 </ul>
-
-## Section 2
