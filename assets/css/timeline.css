@@ -11,7 +11,7 @@
   left: 20px;            /* vertical line position */
   top: 0;
   bottom: 0;
-  width: 3px;
+  width: 5px;
   background: rgba(125, 130, 140, 0.35);
 }
 .timeline-item {
@@ -21,7 +21,7 @@
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: -32px;
+  left: -50px;
   top: 4px;
   width: 8px;
   height: 8px;
@@ -47,3 +47,21 @@
 .timeline p {
   margin: 0 0 8px;
 }
+
+
+/* Smaller body copy across the site (main column) */
+.page__content {
+  font-size: 0.8rem;    /* try 0.95, 0.93, 0.9 as you prefer */
+  line-height: 1.65;     /* keep line-height comfortable */
+}
+
+/* Optional: tone down paragraph spacing slightly */
+.page__content p {
+  margin-bottom: 0.8em;
+}
+
+/* Optional: scale headings a touch to match the smaller body */
+.page__content h2 { font-size: 1.25rem; }
+.page__content h3 { font-size: 1.15rem; }
+.page__content h4 { font-size: 1.05rem; }
+
