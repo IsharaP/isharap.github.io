@@ -8,10 +8,9 @@ title: ""
 hide_title: true
 excerpt: ""
 hide_excerpt: true
-classes: no-header
 ---
 
-<h1>About Me</h1>
+# About Me
 
 <div class="text-box">
   <ul style="margin: 0; padding: 0;">
@@ -43,7 +42,7 @@ classes: no-header
   </ul>
 </div>
 
-<h1>Experience</h1>h
+# Experience
 
 <ul class="timeline">
 
