@@ -30,17 +30,17 @@
   box-shadow: 0 0 0 3px rgba(125,130,140,.12);
 }
 .timeline-time {
-  font-weight: 500;
+  font-weight: 600;
   color: #7f8794;
   margin-bottom: 4px;
   line-height: 1.35;
-  font-size: 1.0rem;
+  font-size: 0.85rem;
 }
 .timeline-title {
   margin: 0;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.35;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
 }
 .timeline-meta {
   font-weight: 400;
