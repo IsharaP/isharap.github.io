@@ -3,5 +3,5 @@ main:
   - title: "Home"
     url: "/"
   - title: "Resume"
-    url: "/assets/files/CV.pdf"
+    url: "/resume/"
 
