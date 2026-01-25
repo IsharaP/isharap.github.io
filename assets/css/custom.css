@@ -97,11 +97,16 @@ html[data-theme="dark"] select {
   border-color: var(--mm-border);
 }
 
+/* Increase font size of "On this page" heading */
+.toc > header h4 {
+  font-size: 0.8rem !important;   /* adjust to preferred size */
+  font-weight: 600;               /* optional: make it bolder */
+}
+
 /* Increase font size of Table of Contents sidebar */
-.toc,
 .toc__menu,
 .toc__menu li,
 .toc__menu a {
-  font-size: 0.8rem !important;   /* default is ~0.75rem */
+  font-size: 0.7rem !important;   /* default is ~0.75rem */
   line-height: 1.5;
 }
