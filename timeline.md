@@ -11,9 +11,9 @@ toc: false
   <!-- CSIRO -->
   <li class="timeline-item">
     <div class="timeline-time">Aug 2024 — Present</div>
-    <h3 class="timeline-title">CSIRO Early Career Research Fellow — Neuroimaging Team</h3>
+    <h3 class="timeline-title">CSIRO Early Career Research Fellow — Neuroimaging Team (Full‑time)</h3>
     <div class="timeline-meta">
-      Commonwealth Scientific & Industrial Research Organisation (CSIRO), Australia · Australian e‑Health Research Centre · Biomedical Informatics Group  (full‑time)
+      Commonwealth Scientific & Industrial Research Organisation (CSIRO), Australia · Australian e‑Health Research Centre · Biomedical Informatics Group
     </div>
     <p>Developing AI‑enabled imaging biomarkers to support early detection and treatment monitoring in Alzheimer’s disease.</p>
   </li>
@@ -34,16 +34,6 @@ toc: false
     <div class="timeline-meta">
       MTPConnect Australia
     </div>
-  </li>
-  
-  <!-- Bionics Institute (PhD) -->
-  <li class="timeline-item">
-    <div class="timeline-time">Feb 2020 — Feb 2024</div>
-    <h3 class="timeline-title">PhD Candidate — Human Hearing Group/Neurobionics Lab</h3>
-    <div class="timeline-meta">
-      Bionics Institute/Monash University, Australia (full‑time)
-    </div>
-    <p>Transforming infant hearing care by developing objective neuroimaging measures for early diagnosis and intervention.</p>
   </li>
 
   <!-- Startmate -->
@@ -66,18 +56,28 @@ toc: false
   <!-- Monash Teaching Associate -->
   <li class="timeline-item">
     <div class="timeline-time">Feb 2021 — Aug 2024</div>
-    <h3 class="timeline-title">Teaching Associate (casual)</h3>
+    <h3 class="timeline-title">Teaching Associate (Casual)</h3>
     <div class="timeline-meta">
       Monash University, Melbourne, Australia
     </div>
   </li>
 
+  <!-- Bionics Institute (PhD) -->
+  <li class="timeline-item">
+    <div class="timeline-time">Feb 2020 — Feb 2024</div>
+    <h3 class="timeline-title">PhD Candidate — Human Hearing Group/Neurobionics Lab (Full‑time)</h3>
+    <div class="timeline-meta">
+      Bionics Institute/Monash University, Australia
+    </div>
+    <p>Transforming infant hearing care by developing objective neuroimaging measures for early diagnosis and intervention.</p>
+  </li>
+  
   <!-- SUTD Research Engineer -->
   <li class="timeline-item">
     <div class="timeline-time">Jun 2016 — Dec 2019</div>
-    <h3 class="timeline-title">Research Engineer — SAM Design Group / Robotics Innovation Laboratory</h3>
+    <h3 class="timeline-title">Research Engineer — Robotics Innovation Laboratory (Full‑time)</h3>
     <div class="timeline-meta">
-      Pillar of Engineering Product Development, Singapore University of Technology and Design (SUTD), Singapore (full‑time)
+      Pillar of Engineering Product Development, Singapore University of Technology and Design (SUTD), Singapore
     </div>
     <p>Built ultrasound-guided robot-assisted needle tracking for kidney stone removal surgery and a self-initialising robotic micromanipulation system for cell handling.</p>
   </li>
@@ -94,9 +94,9 @@ toc: false
   <!-- SUTD Research Intern -->
   <li class="timeline-item">
     <div class="timeline-time">Oct 2014 — Mar 2015</div>
-    <h3 class="timeline-title">Research Intern — SUTD‑MIT International Design Centre</h3>
+    <h3 class="timeline-title">Research Intern — SUTD‑MIT International Design Centre (Full‑time)</h3>
     <div class="timeline-meta">
-      Singapore University of Technology and Design (SUTD), Singapore (full‑time)
+      Singapore University of Technology and Design (SUTD), Singapore
     </div>
     <p>Automated IVF lab procedures using computer vision for blastomere and micropipette tracking, improving accuracy and efficiency.</p>
   </li>
@@ -115,7 +115,7 @@ toc: false
     <div class="timeline-time">Feb 2014 – Jan 2015</div>
     <h3 class="timeline-title">Secretary – Robotics & Automation Society Student Chapter</h3>
     <div class="timeline-meta">
-      IEEE Student Branch University of Moratuwa, Sri Lanka
+      IEEE Student Branch of University of Moratuwa, Sri Lanka
     </div>
   </li>
   
