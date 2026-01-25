@@ -10,27 +10,27 @@ excerpt: ""
 hide_excerpt: true
 ---
 
-# About Me
+# Hi! I'm Ishara 👋
 
 <div class="text-box">
   <ul style="margin: 0; padding: 0;">
-    <li style="margin-bottom: 0.75rem;">
-      🤖 Applied AI/ML Computer Vision Engineer with 8+ years of experience working across medical imaging,
-      computer‑vision‑based robotics and automation, and neurotechnology, delivering end‑to‑end intelligent
+    <li style="margin-bottom: 0.8rem;">
+      🤖 Senior engineer with 8+ years of experience working across medical imaging,
+      computer‑vision‑based robotics and automation, neurotechnology, and applied AI/ML, delivering end‑to‑end intelligent
       solutions from data to deployment.<br>
     </li>
 
-    <li style="margin-bottom: 0.75rem;">
+    <li style="margin-bottom: 0.8rem;">
       📈 Proven ability to deliver solutions from prototypes to scalable and reproducible pipelines,
       ensuring models and analytics are robust, well‑validated, and ready for reliable real‑world use.<br>
     </li>
 
-    <li style="margin-bottom: 0.75rem;">
+    <li style="margin-bottom: 0.8rem;">
       🧠 My current work focuses on developing AI‑driven quantitative PET/MR biomarkers that support early
       diagnosis, treatment monitoring, and evidence‑based clinical decision‑making in Alzheimer’s disease.<br>
     </li>
 
-    <li style="margin-bottom: 0;">
+    <li style="margin-bottom: 0.8;">
       🚀 To learn more about my work, check out my
       <a href="https://drive.google.com/file/d/1U_5HCV206EBXEhObK1OOvCfKSylvqE2_/view"
          target="_blank" rel="noopener noreferrer">resume</a>
