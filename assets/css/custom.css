@@ -152,14 +152,12 @@ html[data-theme="dark"] select {
 .updates__date {
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-  color: #ffffff;
   font-weight: 500;
   line-height: 1.3;                        /* was 0.8 (too tight for some fonts) */
   margin: 0;
 }
 
 .updates__title {
-  color: #ffffff;
   font-weight: 500;                         /* a touch bolder for scannability */
   line-height: 1.3;                         /* compact but readable */
   margin: 0;
@@ -174,7 +172,6 @@ html[data-theme="dark"] select {
 }
 
 .updates__extra {
-  color: #ffffff;
   font-weight: 500;                         /* a touch bolder for scannability */
   line-height: 1.3;                         /* compact but readable */
   margin: 0;
