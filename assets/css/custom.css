@@ -123,14 +123,14 @@ html[data-theme="dark"] select {
 /* Two-column layout: icon + body */
 .updates__item {
   display: grid;
-  grid-template-columns: 1.2rem 1fr;
+  grid-template-columns: 0.9rem 1fr;
   gap: 0.22rem 0.45rem;
   padding: 0.45rem 0;
 }
 .updates__item:last-child { border-bottom: 0; }
 
 .updates__icon {
-  width: 1.2rem;
+  width: 0.9rem;
   text-align: center;
   line-height: 1;
   font-size: 0.9rem;                /* slightly smaller than text, still visible */
@@ -142,20 +142,21 @@ html[data-theme="dark"] select {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.15rem 0.30rem;              /* tighten inline gaps */
-  margin-bottom: 0.10rem;            /* ↓ minimal space before the body text */
+  gap: 0.1rem 0.30rem;              /* tighten inline gaps */
+  margin-bottom: 0.05rem;            /* ↓ minimal space before the body text */
 
 }
 
 .updates__date {
-  color: var(--mm-subtle-text, #6b7280);
+  color: var(--mm-subtle-text, #7f8794);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+  line-height: 0.8;
 }
 
 .updates__title {
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 0.8;
 }
 
 .updates__sep { color: var(--mm-subtle-text, #9ca3af); }
@@ -163,28 +164,13 @@ html[data-theme="dark"] select {
 .updates__extra:hover { text-decoration: underline; }
 
 .updates__text {
-  color: var(--mm-subtle-text, #6b7280);
+  color: var(--mm-subtle-text, #e5ecf5)
   # margin-top: 0.05rem;
 }
 
 /* Optional: slightly larger titles */
 .updates .updates__title a { text-decoration: none; }
 .updates .updates__title a:hover { text-decoration: underline; }
-
-
-/* ===== Improved contrast for Dark Theme (Recent Updates) ===== */
-html[data-theme="dark"] .updates__title {
-  color: #e5ecf5;   /* bright, high-contrast headline */
-}
-html[data-theme="dark"] .updates__text {
-  color: #c7d2e4;   /* brighter body text for excellent readability */
-}
-html[data-theme="dark"] .updates__date {
-  color: #b9c6d8;   /* readable but slightly muted date */
-}
-html[data-theme="dark"] .updates__sep {
-  color: #9fb0c2;   /* subtle separator dot */
-}
 
 
 /* Responsiveness */
