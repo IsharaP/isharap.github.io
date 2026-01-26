@@ -1,6 +1,6 @@
 # _data/updates.yml
 - date: 2025-12-23
-  title: " : Abstract accepted — AAIC 2025"
+  title: ":  Abstract accepted — AAIC 2025"
   text: "Comparison of visual read performance of NAV and FBP Aβ PET against AI-driven quantification (DeepSUVR)"
   type: paper
   link:
@@ -8,12 +8,12 @@
     label: "[Abstract]"
 
 - date: 2025-09-23
-  title: " : Secured funding — Lilly Research Award Program"
+  title: ":  Secured funding — Lilly Research Award Program"
   text: "Validate ARIA Risk genes using brain MRI/PET imaging endpoints: A collaborative project with Eli Lilly & Company (USA) & Edith Cowan University (Australia)"
   type: grant
   
 - date: 2025-06-30
-  title: ": Released a public repository — DeepSUVR"
+  title: ":  Released a public repository — DeepSUVR"
   text: "A deep learning method to improve Centiloid Aβ PET quantification"
   type: code
   link:
@@ -21,12 +21,12 @@
     label: "[Github]"
 
 - date: 2025-04-16
-  title: " : Facilitated a panel discussion — IMNIS Catalyst"
+  title: ":  Facilitated a panel discussion — IMNIS Catalyst"
   text: "Health technology panel discussion on STEM careers in industry targeted for IMNIS mentees"
   type: service
   
 - date: 2023-11-10
-  title: " : Media release — The Sydney Morning Herald and The Age"
+  title: ":  Media release — The Sydney Morning Herald and The Age"
   text: "Interview about my PhD work: Transforming Infant Hearing Care with Objective Neuroimaging Measures"
   type: media
   link:
