@@ -1,11 +1,12 @@
 {% assign items = site.data.updates | sort: "date" | reverse %}
-{% assign max = include.limit | default: 10 %}
+{% assign max = 5 %}
 
 <section id="updates" class="updates">
 
   <ul class="updates__list">
     {% for it in items limit: max %}
-      {%- comment -%} Resolve icon: explicit icon > type-mapped > default {%- endcomment -%}
+
+      {%- comment -%} Select icon: explicit icon > type-based > fallback {%- endcomment -%}
       {% assign icon = it.icon %}
       {% if icon == nil or icon == '' %}
         {% case it.type %}
@@ -32,16 +33,7 @@
 
             {% if it.title %}
               <span class="updates__title">
-                {% if it.link and it.link.url %}
-                  <a href="{{ it.link.url }}"
-                     {% unless it.link.url contains site.url %}
-                       target="_blank" rel="noopener noreferrer"
-                     {% endunless %}>
-                    {{ it.title }}
-                  </a>
-                {% else %}
-                  {{ it.title }}
-                {% endif %}
+                {{ it.title }}  {# plain text title (no link) #}
               </span>
             {% endif %}
 
@@ -62,14 +54,8 @@
           {% endif %}
         </div>
       </li>
+
     {% endfor %}
   </ul>
 
-  {% if include.more_url %}
-    <div class="updates__more">
-      <a href="{{ include.more_url | relative_url }}">
-        {{ include.more_label | default: "All updates >>" }}
-      </a>
-    </div>
-  {% endif %}
 </section>
