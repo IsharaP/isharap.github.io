@@ -30,7 +30,7 @@ plugins:
 author:
   name: ""
   avatar: "/assets/images/profile.jpeg"
-  bio: "Scientist at Commonwealth Scientific & Industrial Research Organisation (CSIRO)"
+  bio: "Scientist @ Commonwealth Scientific & Industrial Research Organisation (CSIRO)"
   location: "Melbourne, Australia"
   links:
     - label: "CV"
