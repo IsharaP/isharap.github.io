@@ -2,6 +2,7 @@
 layout: single
 title: ""
 permalink: /resume/
+author_profile: true
 toc: false
 ---
 
