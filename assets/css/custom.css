@@ -158,8 +158,7 @@ html[data-theme="dark"] select {
 }
 
 .updates__title {
-  font-weight: 600;                         /* a touch bolder for scannability */
-  font-size: 0.98rem;                       /* slightly smaller than defaults */
+  font-weight: 500;                         /* a touch bolder for scannability */
   line-height: 1.1;                         /* compact but readable */
   margin: 0;
 }
@@ -169,34 +168,16 @@ html[data-theme="dark"] select {
 
 .updates__extra {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 .updates__extra:hover,
 .updates__extra:focus { text-decoration: underline; }
 
 /* Body text tighter and with correct CSS syntax */
 .updates__text {
-  color: var(--mm-subtle-text, #5f6b7a);
+  color: var(--mm-subtle-text, #e5ecf5);
   margin-top: 0.1rem;                       /* small but present breathing room */
   line-height: 1.3;                         /* denser paragraph rhythm */
-}
-
-/* --- Title link removal (2 approaches) --- */
-
-/* A) Preferred: if you removed the <a> around the title in your template,
-   nothing else is needed. The rules below are harmless.
-*/
-
-/* B) CSS fallback: if the theme still wraps title in <a>, neutralize it */
-.updates .updates__title a {
-  color: inherit;               /* same color as text */
-  text-decoration: none;        /* no underline */
-  pointer-events: none;         /* disable click */
-  cursor: default;
-}
-.updates .updates__title a:hover,
-.updates .updates__title a:focus {
-  text-decoration: none;
 }
 
 /* Responsiveness: keep it compact on small screens too */
