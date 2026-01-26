@@ -12,11 +12,20 @@
 
 /* Increase sidebar width */
 .sidebar {
-  width: 260px !important;         /* adjust to whatever size you prefer */
+  width: 270px !important;         /* adjust to whatever size you prefer */
 }
 
 .sidebar__inner {
-  max-width: 260px !important;     /* match the width */
+  max-width: 270px !important;     /* match the width */
+}
+
+
+/* Prevent content from overlapping after widening the sidebar */
+.layout--single,
+.layout--home,
+.page,
+.main {
+  margin-left: 270px !important;   /* same width again */
 }
 
 /* Disable Minimal Mistakes sidebar fade effect */
