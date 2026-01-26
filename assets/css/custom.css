@@ -10,6 +10,15 @@
   line-height: 1.4 !important;
 }
 
+/* Increase sidebar width */
+.sidebar {
+  width: 260px !important;         /* adjust to whatever size you prefer */
+}
+
+.sidebar__inner {
+  max-width: 260px !important;     /* match the width */
+}
+
 /* Disable Minimal Mistakes sidebar fade effect */
 
 /* Sidebar wrapper */
