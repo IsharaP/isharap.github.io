@@ -40,5 +40,8 @@ hide_excerpt: true
 # Recent updates
 {% include recent-updates.html %}
 
-# Experience
-{% include /timeline.html %}
+# Professional Experience
+{% include /timeline-professional.html %}
+
+# Volunteering Experience
+{% include /timeline-volunteering.html %}
