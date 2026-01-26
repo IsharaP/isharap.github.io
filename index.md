@@ -166,4 +166,4 @@ hide_excerpt: true
 
 # Recent updates
 
-{% include recent-updates.html limit=10 more_url="/news/" more_label="All updates →" %}
+{% include recent-updates.html limit=10" %}
