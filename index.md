@@ -11,7 +11,6 @@ hide_excerpt: true
 ---
 
 # Hi there! 👋
-
 <div class="text-box">
   <ul style="margin: 0; padding: 0;">
     <li style="margin-bottom: 0.9rem;">
@@ -39,9 +38,7 @@ hide_excerpt: true
 </div>
 
 # Recent updates
-
-{% include recent-updates.html limit=10 more_url="/news/" more_label="All updates >>" %}
+{% include recent-updates.html limit=5 more_url="/news/" more_label="All updates >>" %}
 
 # Experience
-
 {% include /timeline.html %}
