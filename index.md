@@ -38,7 +38,7 @@ hide_excerpt: true
 </div>
 
 # Recent updates
-{% include recent-updates.html limit=5 more_url="/news/" more_label="All updates >>" %}
+{% include recent-updates.html %}
 
 # Experience
 {% include /timeline.html %}
