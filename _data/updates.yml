@@ -1,5 +1,4 @@
 # _data/updates.yml
-# EXAMPLE ITEMS — replace with your real updates
 - date: 2026-01-20
   title: "Invited Talk: AI-driven PET/MR Biomarkers"
   text: "Gave an invited talk on early diagnosis and treatment monitoring workflows."
@@ -43,5 +42,4 @@
   title: "Workshop chair service"
   text: "Co-chair for health AI applications track."
   type: service
-  # auto icon 🧩
-  
+  # auto icon 🧩  
