@@ -42,6 +42,3 @@ hide_excerpt: true
 
 # Professional Experience
 {% include /timeline-professional.html %}
-
-# Volunteering Experience
-{% include /timeline-volunteering.html %}
