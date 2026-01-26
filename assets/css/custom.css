@@ -10,22 +10,33 @@
   line-height: 1.4 !important;
 }
 
-/* Increase sidebar width */
-.sidebar {
-  width: 270px !important;         /* adjust to whatever size you prefer */
-}
+/* Wider left sidebar without overlapping the content (desktop and up) */
+@media (min-width: 1024px) {
+  /* Make the sidebar a fixed-width flex item */
+  .sidebar {
+    flex: 0 0 260px !important;   /* flex-basis = 260px, no grow, no shrink */
+    max-width: 260px !important;
+    width: 260px !important;       /* helps when sticky/positioned */
+  }
 
-.sidebar__inner {
-  max-width: 270px !important;     /* match the width */
-}
+  /* Inner wrapper should match the width */
+  .sidebar__inner {
+    max-width: 260px !important;
+    width: 260px !important;
+  }
 
+  /* Ensure the page uses flex (theme already does, this is defensive) */
+  .page {
+    display: flex !important;
+  }
 
-/* Prevent content from overlapping after widening the sidebar */
-.layout--single,
-.layout--home,
-.page,
-.main {
-  margin-left: 270px !important;   /* same width again */
+  /* Let the main content flex to occupy remaining space */
+  .page__content,
+  .archive,               /* listing pages */
+  .grid__wrapper {        /* cards/grid listings */
+    flex: 1 1 auto;
+    min-width: 0;         /* prevents long lines from forcing overflow */
+  }
 }
 
 /* Disable Minimal Mistakes sidebar fade effect */
