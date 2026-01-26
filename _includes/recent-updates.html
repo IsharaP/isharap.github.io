@@ -1,14 +1,7 @@
-{% comment %}
-  _includes/recent-updates.html
-  Usage on any page:
-    {% include recent-updates.html limit=10 more_url="/news/" more_label="All updates →" %}
-{% endcomment %}
-
 {% assign items = site.data.updates | sort: "date" | reverse %}
 {% assign max = include.limit | default: 10 %}
 
 <section id="updates" class="updates">
-  <h2 class="updates__title">Recent Updates</h2>
 
   <ul class="updates__list">
     {% for it in items limit: max %}
@@ -75,7 +68,7 @@
   {% if include.more_url %}
     <div class="updates__more">
       <a href="{{ include.more_url | relative_url }}">
-        {{ include.more_label | default: "All updates →" }}
+        {{ include.more_label | default: "All updates >>" }}
       </a>
     </div>
   {% endif %}
