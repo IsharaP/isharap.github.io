@@ -5,7 +5,7 @@
   type: paper
   link:
     url: "https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/alz70862_110277"
-    label: "Abstract"
+    label: "[Abstract"
 
 - date: 2025-09-23
   title: "Secured funding — Lilly Research Award Program"
@@ -18,7 +18,7 @@
   type: code
   link:
     url: "https://github.com/csiro/DeepSUVR"
-    label: "Repo"
+    label: "[Github]"
 
 - date: 2025-04-16
   title: "Facilitated a panel discussion — IMNIS Catalyst"
@@ -31,4 +31,4 @@
   type: media
   link:
     url: "https://www.theage.com.au/healthcare/audrey-was-too-young-to-say-she-could-hear-you-but-her-brainwaves-could-20231108-p5eihr.html"
-    label: "News"
+    label: "[News]"
