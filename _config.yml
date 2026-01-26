@@ -10,7 +10,7 @@ codeenable_copy_code_button: true
 
 # ---- Minimal Mistakes theme ----
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "air"
 
 include:
   - _pages
