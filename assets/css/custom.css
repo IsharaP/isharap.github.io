@@ -152,30 +152,36 @@ html[data-theme="dark"] select {
 .updates__date {
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+  color: #ffffff;
   font-weight: 500;
-  line-height: 1.1;                        /* was 0.8 (too tight for some fonts) */
+  line-height: 1.2;                        /* was 0.8 (too tight for some fonts) */
   margin: 0;
 }
 
 .updates__title {
+  color: #ffffff;
   font-weight: 500;                         /* a touch bolder for scannability */
-  line-height: 1.1;                         /* compact but readable */
+  line-height: 1.2;                         /* compact but readable */
   margin: 0;
 }
 
-.updates__extra {
-  text-decoration: none;
-  font-weight: 500;
-}
-.updates__extra:hover,
-.updates__extra:focus { text-decoration: underline; }
-
 /* Body text tighter and with correct CSS syntax */
 .updates__text {
-  color: var(--mm-subtle-text, #7f8794);
+  color: #7f8794;
   margin-top: 0.1rem;                       /* small but present breathing room */
-  line-height: 1.3;                         /* denser paragraph rhythm */
+  font-weight: 300;
+  line-height: 1.2;                         /* denser paragraph rhythm */
 }
+
+.updates__extra {
+  color: #ffffff;
+  font-weight: 500;                         /* a touch bolder for scannability */
+  line-height: 1.2;                         /* compact but readable */
+  margin: 0;
+}
+
+.updates__extra:hover,
+.updates__extra:focus { text-decoration: underline; }
 
 /* Responsiveness: keep it compact on small screens too */
 @media (max-width: 540px) {
