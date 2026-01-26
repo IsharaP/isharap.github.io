@@ -10,6 +10,19 @@
   line-height: 1.4 !important;
 }
 
+/* Disable Minimal Mistakes sidebar fade effect */
+
+/* Sidebar wrapper */
+.sidebar.sticky,
+.author__avatar,
+.author__content,
+.author__bio,
+.author__urls-wrapper {
+  opacity: 1 !important;        /* always full opacity */
+  filter: none !important;      /* remove softening blur/haze */
+  transition: none !important;  /* remove fade-in/out animation */
+}
+
 /* Smaller body copy across the site (main column) */
 .page__content {
   font-size: 0.75rem;    /* try 0.95, 0.93, 0.9 as you prefer */
