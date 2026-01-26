@@ -1,0 +1,47 @@
+# _data/updates.yml
+# EXAMPLE ITEMS — replace with your real updates
+- date: 2026-01-20
+  title: "Invited Talk: AI-driven PET/MR Biomarkers"
+  text: "Gave an invited talk on early diagnosis and treatment monitoring workflows."
+  type: talk
+  icon: "🎤"   # optional (overrides type mapping)
+  link:
+    url: "https://example.com/slides"
+    label: "Slides"
+
+- date: 2025-12-16
+  title: "Paper accepted at ICSE-SEIP"
+  text: "Supply-chain protection using program analysis."
+  type: paper
+  # no icon -> will auto-use 📝
+  link:
+    url: "https://doi.org/your-doi"
+    label: "Paper"
+
+- date: 2025-11-27
+  title: "Media mention"
+  text: "Interview on robust imaging biomarkers and clinical decision support."
+  type: media
+  # no icon -> will auto-use 📢
+
+- date: 2025-10-08
+  title: "Open-sourced PET segmentation utilities"
+  text: "Released tools for cohort-scale processing."
+  type: release
+  icon: "🚀"
+  link:
+    url: "https://github.com/your-org/your-repo"
+    label: "Repo"
+
+- date: 2025-08-31
+  title: "Grant awarded"
+  text: "Support for PET/MR biomarker validation with clinical partners."
+  type: grant
+  # auto icon 💰
+
+- date: 2025-07-04
+  title: "Workshop chair service"
+  text: "Co-chair for health AI applications track."
+  type: service
+  # auto icon 🧩
+  
