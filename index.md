@@ -164,6 +164,8 @@ hide_excerpt: true
 
 </ul>
 
+{% include /timeline.html %}
+
 # Recent updates
 
 {% include recent-updates.html limit=10 more_url="/news/" more_label="All updates >>" %}
