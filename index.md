@@ -37,8 +37,14 @@ hide_excerpt: true
   </ul>
 </div>
 
+---
+
+
 # Recent updates
 {% include recent-updates.html %}
+
+---
+
 
 # Professional Experience
 {% include /timeline-professional.html %}
