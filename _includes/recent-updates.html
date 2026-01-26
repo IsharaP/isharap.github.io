@@ -1,0 +1,82 @@
+{% comment %}
+  _includes/recent-updates.html
+  Usage on any page:
+    {% include recent-updates.html limit=10 more_url="/news/" more_label="All updates →" %}
+{% endcomment %}
+
+{% assign items = site.data.updates | sort: "date" | reverse %}
+{% assign max = include.limit | default: 10 %}
+
+<section id="updates" class="updates">
+  <h2 class="updates__title">Recent Updates</h2>
+
+  <ul class="updates__list">
+    {% for it in items limit: max %}
+      {%- comment -%} Resolve icon: explicit icon > type-mapped > default {%- endcomment -%}
+      {% assign icon = it.icon %}
+      {% if icon == nil or icon == '' %}
+        {% case it.type %}
+          {% when 'talk'    %}{% assign icon = "🎤" %}
+          {% when 'paper'   %}{% assign icon = "📝" %}
+          {% when 'award'   %}{% assign icon = "🏆" %}
+          {% when 'service' %}{% assign icon = "🧩" %}
+          {% when 'grant'   %}{% assign icon = "💰" %}
+          {% when 'media'   %}{% assign icon = "📢" %}
+          {% when 'release' %}{% assign icon = "🚀" %}
+          {% when 'code'    %}{% assign icon = "💻" %}
+          {% else           %}{% assign icon = "📌" %}
+        {% endcase %}
+      {% endif %}
+
+      <li class="updates__item">
+        <div class="updates__icon" aria-hidden="true">{{ icon }}</div>
+
+        <div class="updates__body">
+          <div class="updates__headline">
+            <time class="updates__date" datetime="{{ it.date | date_to_xmlschema }}">
+              {{ it.date | date: "%d %b %Y" }}
+            </time>
+
+            {% if it.title %}
+              <span class="updates__title">
+                {% if it.link and it.link.url %}
+                  <a href="{{ it.link.url }}"
+                     {% unless it.link.url contains site.url %}
+                       target="_blank" rel="noopener noreferrer"
+                     {% endunless %}>
+                    {{ it.title }}
+                  </a>
+                {% else %}
+                  {{ it.title }}
+                {% endif %}
+              </span>
+            {% endif %}
+
+            {% if it.link and it.link.url and it.link.label %}
+              <span class="updates__sep">·</span>
+              <a class="updates__extra"
+                 href="{{ it.link.url }}"
+                 {% unless it.link.url contains site.url %}
+                   target="_blank" rel="noopener noreferrer"
+                 {% endunless %}>
+                {{ it.link.label }}
+              </a>
+            {% endif %}
+          </div>
+
+          {% if it.text %}
+            <div class="updates__text">{{ it.text }}</div>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if include.more_url %}
+    <div class="updates__more">
+      <a href="{{ include.more_url | relative_url }}">
+        {{ include.more_label | default: "All updates →" }}
+      </a>
+    </div>
+  {% endif %}
+</section>
