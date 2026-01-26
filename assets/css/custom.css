@@ -24,6 +24,14 @@
   transition: none !important;  /* remove fade-in/out animation */
 }
 
+
+/* Make all social icons grayscale (GitHub, Email, LinkedIn, etc.) */
+.author__urls-wrapper .fa,
+.author__urls-wrapper .fab,
+.author__urls-wrapper .fas {
+  color: #7f8794 !important;   /* or #000 for black */
+}
+
 /* Smaller body copy across the site (main column) */
 .page__content {
   font-size: 0.75rem;    /* try 0.95, 0.93, 0.9 as you prefer */
