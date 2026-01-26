@@ -1,26 +1,3 @@
 <!-- Custom head snippets -->
 <link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
-
-<script>
-  (function () {
-    const mql = window.matchMedia('(prefers-color-scheme: dark)');
-
-    function applyTheme(e) {
-      document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-    }
-
-    // Set on load
-    applyTheme(mql);
-
-    // Listen for changes
-    if (mql.addEventListener) {
-      mql.addEventListener('change', applyTheme);
-    } else if (mql.addListener) {
-      // Safari <14
-      mql.addListener(applyTheme);
-    }
-  })();
-</script>
-
