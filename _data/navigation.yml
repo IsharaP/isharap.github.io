@@ -4,3 +4,9 @@ main:
     url: "/"
   - title: "Service"
     url: "/timeline-volunteering/"
+  - title: Blog
+    url: /blog/
+    external: false
+  - title: Contact
+    url: /contact/
+    external: false
