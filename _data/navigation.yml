@@ -7,6 +7,3 @@ main:
   - title: Blog
     url: /blog/
     external: false
-  - title: Contact
-    url: /contact/
-    external: false
