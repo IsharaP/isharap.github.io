@@ -15,6 +15,12 @@ minimal_mistakes_skin: "dark"
 include:
   - _pages
 
+# ---- Collections ----
+collections:
+  projects:
+    output: false
+    sort_by: order
+
 # ---- Plugins ----
 plugins:
   - jekyll-remote-theme
@@ -56,6 +62,11 @@ defaults:
       author_profile: true
       toc: true
       toc_sticky: true
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "single"
 
 footer:
   links:
