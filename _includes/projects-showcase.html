@@ -1,0 +1,224 @@
+<!-- _includes/projects-showcase.html -->
+<!-- Category filter buttons -->
+<div class="projects-filter">
+  <button class="projects-filter__btn active" data-filter="all">All</button>
+  {% assign categories = site.projects | map: "category" | uniq | sort %}
+  {% for cat in categories %}
+    <button class="projects-filter__btn" data-filter="{{ cat | slugify }}">{{ cat }}</button>
+  {% endfor %}
+</div>
+
+<!-- Tag cloud -->
+<div class="projects-tags" id="projectTags">
+  {% assign all_tags = "" | split: "" %}
+  {% for project in site.projects %}
+    {% for tag in project.tags %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endfor %}
+  {% endfor %}
+  {% assign unique_tags = all_tags | uniq | sort %}
+  {% for tag in unique_tags %}
+    <button class="projects-tag__btn" data-tag="{{ tag | slugify }}">{{ tag }}</button>
+  {% endfor %}
+</div>
+
+<!-- Project cards -->
+<div class="projects-grid" id="projectsGrid">
+  {% for project in site.projects %}
+  <div class="project-card"
+       data-category="{{ project.category | slugify }}"
+       data-tags="{% for tag in project.tags %}{{ tag | slugify }}{% unless forloop.last %},{% endunless %}{% endfor %}">
+    
+    <!-- Card header -->
+    <div class="project-card__header">
+      <div class="project-card__icon">
+        <i class="{{ project.icon }}"></i>
+      </div>
+      <div class="project-card__meta">
+        <span class="project-card__status project-card__status--{{ project.status | downcase }}">
+          {{ project.status }}
+        </span>
+        <span class="project-card__period">{{ project.period }}</span>
+      </div>
+    </div>
+
+    <!-- Card body -->
+    <h3 class="project-card__title">{{ project.title }}</h3>
+    <p class="project-card__institution">
+      <i class="fas fa-building"></i> {{ project.institution }}
+      {% if project.location %}<span class="project-card__location"> · {{ project.location }}</span>{% endif %}
+    </p>
+    
+    {% if project.collaborators and project.collaborators != "" %}
+    <p class="project-card__collaborators">
+      <i class="fas fa-handshake"></i> {{ project.collaborators }}
+    </p>
+    {% endif %}
+
+    <p class="project-card__excerpt">{{ project.excerpt }}</p>
+
+    <!-- Tags on card -->
+    <div class="project-card__tags">
+      {% for tag in project.tags %}
+        <span class="project-card__tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+
+    <!-- Expandable details -->
+    <div class="project-card__details" style="display: none;">
+      
+      {% if project.highlights and project.highlights.size > 0 %}
+      <div class="project-card__section">
+        <h4><i class="fas fa-star"></i> Key Outcomes</h4>
+        <ul class="project-card__highlights">
+          {% for highlight in project.highlights %}
+            <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if project.patent %}
+      <div class="project-card__section">
+        <h4><i class="fas fa-certificate"></i> Patent</h4>
+        <p>
+          <a href="{{ project.patent_url }}" target="_blank" rel="noopener noreferrer">{{ project.patent }}</a>
+          {% if project.licensed_to %}
+            <br><em>Licensed to {{ project.licensed_to }}</em>
+          {% endif %}
+        </p>
+      </div>
+      {% endif %}
+
+      {% assign total_pubs = 0 %}
+      {% if project.publications.journals %}{% assign total_pubs = total_pubs | plus: project.publications.journals.size %}{% endif %}
+      {% if project.publications.conferences %}{% assign total_pubs = total_pubs | plus: project.publications.conferences.size %}{% endif %}
+
+      {% if total_pubs > 0 %}
+      <div class="project-card__section">
+        <h4><i class="fas fa-book"></i> Publications</h4>
+        
+        {% if project.publications.journals.size > 0 %}
+        <div class="project-card__pubgroup">
+          <h5>Journal Articles</h5>
+          <ol class="project-card__publist">
+            {% for pub in project.publications.journals %}
+            <li>
+              {{ pub.authors }}, 
+              "<a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>," 
+              <em>{{ pub.venue }}</em>, {{ pub.year }}.
+              {% if pub.impact %}<span class="project-card__impact">IF: {{ pub.impact }}</span>{% endif %}
+            </li>
+            {% endfor %}
+          </ol>
+        </div>
+        {% endif %}
+        
+        {% if project.publications.conferences.size > 0 %}
+        <div class="project-card__pubgroup">
+          <h5>Conference Papers</h5>
+          <ol class="project-card__publist">
+            {% for pub in project.publications.conferences %}
+            <li>
+              {{ pub.authors }}, 
+              "<a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>," 
+              <em>{{ pub.venue }}</em>, {{ pub.year }}.
+            </li>
+            {% endfor %}
+          </ol>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+
+    </div>
+
+    <!-- Expand/collapse toggle -->
+    <button class="project-card__toggle" aria-expanded="false">
+      <span class="project-card__toggle-text">Show details</span>
+      <i class="fas fa-chevron-down project-card__toggle-icon"></i>
+    </button>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- No results message -->
+<div class="projects-empty" id="projectsEmpty" style="display: none;">
+  <i class="fas fa-search"></i>
+  <p>No projects match the selected filters.</p>
+  <button class="projects-filter__btn" onclick="resetFilters()">Show all projects</button>
+</div>
+
+<!-- Filter & toggle JS -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const filterBtns = document.querySelectorAll(".projects-filter__btn");
+  const tagBtns = document.querySelectorAll(".projects-tag__btn");
+  const cards = document.querySelectorAll(".project-card");
+  const emptyMsg = document.getElementById("projectsEmpty");
+  const grid = document.getElementById("projectsGrid");
+
+  let activeCategory = "all";
+  let activeTags = new Set();
+
+  function applyFilters() {
+    let visibleCount = 0;
+    cards.forEach(function (card) {
+      const cat = card.dataset.category;
+      const cardTags = card.dataset.tags.split(",");
+      const catMatch = activeCategory === "all" || cat === activeCategory;
+      const tagMatch = activeTags.size === 0 || 
+        Array.from(activeTags).every(function (t) { return cardTags.indexOf(t) !== -1; });
+
+      if (catMatch && tagMatch) {
+        card.style.display = "";
+        visibleCount++;
+      } else {
+        card.style.display = "none";
+      }
+    });
+    emptyMsg.style.display = visibleCount === 0 ? "flex" : "none";
+    grid.style.display = visibleCount === 0 ? "none" : "";
+  }
+
+  filterBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      filterBtns.forEach(function (b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      activeCategory = btn.dataset.filter;
+      applyFilters();
+    });
+  });
+
+  tagBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      btn.classList.toggle("active");
+      var tag = btn.dataset.tag;
+      if (activeTags.has(tag)) { activeTags.delete(tag); }
+      else { activeTags.add(tag); }
+      applyFilters();
+    });
+  });
+
+  // Expand/collapse card details
+  document.querySelectorAll(".project-card__toggle").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var details = btn.previousElementSibling;
+      var isOpen = details.style.display !== "none";
+      details.style.display = isOpen ? "none" : "block";
+      btn.setAttribute("aria-expanded", !isOpen);
+      btn.querySelector(".project-card__toggle-text").textContent = isOpen ? "Show details" : "Hide details";
+      btn.querySelector(".project-card__toggle-icon").style.transform = isOpen ? "" : "rotate(180deg)";
+    });
+  });
+
+  window.resetFilters = function () {
+    activeCategory = "all";
+    activeTags.clear();
+    filterBtns.forEach(function (b) { b.classList.remove("active"); });
+    filterBtns[0].classList.add("active");
+    tagBtns.forEach(function (b) { b.classList.remove("active"); });
+    applyFilters();
+  };
+});
+</script>
